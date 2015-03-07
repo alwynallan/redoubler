@@ -3,4 +3,4 @@ to their latest available versions. Do not upgrade the USBFS component -- it cau
 endless repeated attempts to enumerated the REDOUBLER when it is plugged into a computer. Choose "Cancel"
 instead.
 
-We are working with Cypress to find a solution to this.
+We are working with Cypress to find a solution for this.
