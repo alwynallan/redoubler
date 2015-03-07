@@ -6,6 +6,8 @@ white noise which contains a high proportion of random entropy. The digital data
 is random numbers, and they can be recorded and used for any purpose that requires a non-deterministic entropy
 source.
 
+![REDOUBLERs, Shucked and Not](images/REDOUBLERs.png?raw=true "REDOUBLERs")
+
 By ennumerating as a standard USB microphone (sound card with one input) REDOUBLER does not require drivers
 on any major operating system. This simplifies developments, and reduces the "attack surfacce" that an
 adversary can use to compromise security.
