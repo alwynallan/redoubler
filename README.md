@@ -10,7 +10,7 @@ By ennumerating as a standard USB microphone (sound card with one input) REDOUBL
 on any major operating system. This simplifies developments, and reduces the "attack surfacce" that an
 adversary can use to compromise security.
 
-## Modular Entropy Modulation
+### Modular Entropy Modulation
 
 Non-deterministic random number generators use various methods to gather entropy. Avalance noise from a
 reverse-biased semiconductor junction is popular, but others include video of Lava Lamps, radios tuned 
