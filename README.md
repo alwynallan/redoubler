@@ -9,7 +9,7 @@ source.
 ![REDOUBLERs, Shucked and Not](images/REDOUBLERs.jpg?raw=true "REDOUBLERs")
 
 By ennumerating as a standard USB microphone (sound card with one input) REDOUBLER does not require drivers
-on any major operating system. This simplifies developments, and reduces the "attack surfacce" that an
+on any major operating system. This simplifies development, and reduces the "attack surfacce" that an
 adversary can use to compromise security.
 
 ### Modular Entropy Modulation
@@ -28,4 +28,4 @@ As a circuit, the analog part of MEM looks like this
 
 ![Analog part of MEM Circuit](images/MEM_Circuit.png?raw=true "Circuit")
 
-The Track & Holds are where the voltages are stored, one for the source voltage and one for the result. The Comarators compare the stored voltages with the midpoint of their range, and produce a digital output based on the result. The Opamps double the input voltage and, depending on the result of the comparison, shift it by the voltage range. In the REDOUBLER, all of the components except the resistors or reconfigurable analog blocks on a Cypress Semiconductor PSoC 5LP chip.  The REDOUBLER has two such generators operating simultaneously at 768,000 bps, for a combined output of 1,536,000 bps. The bitstream has about 7.9 bits/byte of entropy, and is unwhitened, leaving the host to apply a whitening filter if required.
+The Track & Holds are where the voltages are stored, one for the source voltage and one for the result. The Comarators compare the stored voltages with the midpoint of their range, and produce a digital output based on the result. The Opamps double the input voltage and, depending on the result of the comparison, shift it by the voltage range. The clocks q and qp are symmetric and non-overlapping and control the pace of the circuit. In the REDOUBLER, all of the components except the resistors or reconfigurable analog blocks on a Cypress Semiconductor PSoC 5LP chip. It has two such generators operating simultaneously at 768,000 bps, for a combined output of 1,536,000 bps. The bitstream has about 7.9 bits/byte of entropy, and is unwhitened, leaving the host to apply a whitening filter if required.
