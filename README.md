@@ -28,7 +28,13 @@ Modular Entropy Multiplication has advantages over all other methods because it 
 
 ### The Circuit
 
-The circuit is designed in the latest free version of Cadsoft Eagle. The schematic
+The circuit is designed in the latest free version of Cadsoft Eagle and files are in the [circuit](circuit) branch of this repository.
+
+![Schematic](images/Schematic.png?raw=true "Schematic")
+
+![Board](images/Board.png?raw=true "Board")
+
+A Bill Of Materials is also disclosed.
 
 ### The Firmware
 
