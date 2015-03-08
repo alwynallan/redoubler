@@ -46,6 +46,10 @@ Once the firmware is built, it can be programmed onto a REDOUBLER using the $90 
 
 ### Host Software
 
+As open source software, users are asked to contibute their developments back to this repository. For now support is sparse. Anything that can be done with a USB microphone can be done with REDOUBLER. [Linux](host_linux) is likely to be best supported, but [Windows](host_windows) and Mac [OS-X](host_osx) will have branches here too. Audacity runs on all three platforms, and can be used to record, view, manuipulate and save data from REDOUBLER, so we know it's everything's possible.
+
+Ultimately the goal is for REDOUBLER to be plugged into any flavor of machine, and have the operating system's random number generator immediately enhanced with copious high=quality entropy.
+
 [Peter Allan]: mailto:alwynallan@gmail.com
 [Infinite Noise TRNG]: https://github.com/waywardgeek/infnoise
 [Cypress PSoC Creator]: http://www.cypress.com/psoccreator/
