@@ -1,6 +1,6 @@
 When the workspace or project is first opened in PSoC Creator, it will offer to update all components
 to their latest available versions. Do not upgrade the USBFS component -- it causes compile errors and
-endless repeated attempts to enumerated the REDOUBLER when it is plugged into a computer. Choose "Cancel"
+endless repeated attempts to enumerate the REDOUBLER when it is plugged into a computer. Choose "Cancel"
 instead.
 
 We are working with Cypress to find a solution for this.
