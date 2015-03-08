@@ -8,15 +8,15 @@ By ennumerating as a standard USB microphone (sound card with one input) REDOUBL
 
 ### Modular Entropy Modulation
 
-Non-deterministic random number generators use various methods to gather entropy. Avalance noise from a reverse-biased semiconductor junction is popular, but others include video of Lava Lamps, radios tuned away from stations, quantum effects, digital logic race conditions, and radioactive decay events. Modular Entropy Modulation (MEM) is a new method.
+Non-deterministic random number generators use various methods to gather entropy. Avalance noise from reverse-biased semiconductor junctions is popular, but others include video of Lava Lamps, radios tuned away from stations, quantum effects, digital logic race conditions, and radioactive decay events. Modular Entropy Modulation (MEM) is a new method.
 
-Invented by the author, [Peter Allan], in the late 1990's and independantly by Bill Cox in the early 2010's, MEM repeatedly compares a voltage with the midpoint of its range, then doubles either the voltage or excess over the midpoint as appropriate, and stores the result. Depending on the comparison, either a '0' or a '1' bit is output.
+Invented by the author, [Peter Allan], in the late 1990's and independently by Bill Cox in the early 2010's, MEM repeatedly compares a voltage with the midpoint of its range, then doubles either the voltage or excess over the midpoint as appropriate, and stores the result. Depending on the comparison, either a '0' or a '1' bit is output.
 
 As a circuit, the analog part of MEM looks like this
 
 ![Analog part of MEM Circuit](images/MEM_Circuit.png?raw=true "Circuit")
 
-The Track and Holds store the voltages, one for the source voltage and one for the result. The Comarators compare the stored voltages with the midpoint of their range, and produce a digital output based on the result. The Opamps double the input voltage and, depending on the result of the comparison, shift it by the voltage range. The clocks q and qp are symmetric and non-overlapping and control the pace of the circuit. When recorded over time, the two voltages have characteristic time traces like this.
+The Track and Holds store the voltages, one for the source voltage and one for the result. The Comarators compare the stored voltages with the midpoint of their range, and produce a digital output based on the result. The Opamps double the input voltage and, depending on the result of the comparison, shift it by the voltage range. The clocks q and qp are symmetric and non-overlapping and control the pace of the circuit, while the output bits are collected at c0 and c1. When recorded over time, the analog voltages have characteristic time traces like this.
 
 ![MEM Traces](images/Traces.png?raw=true "Traces")
 
