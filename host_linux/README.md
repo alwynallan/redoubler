@@ -1,3 +1,5 @@
+# Linux Host Software
+
 When plugged into a properly configured Linux machine the device will cause
 a message at the end of the dmsg list:
 ```
@@ -67,4 +69,29 @@ Then
 $ make
 $ sudo make install
 $ make clean
+```
+That creates the utility **doubledown** that pipes REDOUBLER data to stdout, e.g.
+```
+$ doubledown -l
+Available REDOUBLERs:	Card #    	Serial Number       
+                    	2         	1E0C08F0022E2400
+$ doubledown -c1 -k1 | xxd
+0000000: 47bd f192 c35c cc4c 982b 5332 b471 b303  G....\.L.+S2.q..
+0000010: 0913 6f96 f9fa 03ea e0c6 4ab0 c11d 252a  ..o.......J...%*
+etc.
+```
+It also creates the filters **oddbits** and **evenbits** which select the bits from just one or the other MEM generator on the REDOUBLER. Putting it together
+```
+$ doubledown -c1 -k1024 | oddbits | ent
+Entropy = 7.907466 bits per byte.
+
+Optimum compression would reduce the size
+of this 524800 byte file by 1 percent.
+
+Chi square distribution for 524800 samples is 53993.07, and randomly
+would exceed this value 0.01 percent of the times.
+
+Arithmetic mean value of data bytes is 126.9712 (127.5 = random).
+Monte Carlo value for Pi is 3.271305422 (error 4.13 percent).
+Serial correlation coefficient is -0.005054 (totally uncorrelated = 0.0).
 ```
