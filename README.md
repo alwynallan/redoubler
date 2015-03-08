@@ -20,4 +20,14 @@ The Track & Holds are where the voltages are stored, one for the source voltage 
 
 ![One Second of Data](images/one_sec.png?raw=true "One Second")
 
-Modular Entropy Multiplication has advantages over all other methods because it is simultaeously simple, efficient, fast, and robust. It uses common components, used within their specified ranges. It is ammenable to implementation on silicon, and has proven resistant to external electrical influence, even when unshielded. Bill and I hope that REDOUBLER and his Infinite Noise Multiplier are just the beginning for this method, and we have disclaimed any patent rights to the technology.
+Modular Entropy Multiplication has advantages over all other methods because it is simultaeously simple, efficient, fast, and robust. It uses common components, used within their specified ranges. It is ammenable to implementation on silicon, and has proven resistant to external electrical influence, even when unshielded. Bill and I hope that REDOUBLER and his [Infinite Noise TRNG] are just the beginning for this method, and we have disclaimed any patent rights to the technology.
+
+### The Circuit
+
+### The Firmware
+
+The firmware for REDOUBLER is written in the highly itegrated and free-to-use Cypress PSoC Creator development environment.
+
+### Host Software
+
+[Infinite Noise TRNG]: https://github.com/waywardgeek/infnoise
