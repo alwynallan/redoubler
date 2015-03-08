@@ -28,13 +28,15 @@ Modular Entropy Multiplication has advantages over all other methods because it 
 
 ### The Circuit
 
-The circuit is designed in the latest free version of Cadsoft Eagle and files are in the [circuit](circuit) branch of this repository.
+The REDOUBLER circuit is designed in the latest free version of Cadsoft Eagle and files are in the [circuit](circuit) branch of this repository.
 
 ![Schematic](images/Schematic.png?raw=true "Schematic")
 
+The PSoC chip contains both reconfigurable analog components and digital logic, so the only componets unique to REDOUBLER are the eight resistors at top-right.
+
 ![Board](images/Board.png?raw=true "Board")
 
-A Bill Of Materials is also disclosed.
+A Bill Of Materials is also disclosed. Boards are available from [OSH Park].
 
 ### The Firmware
 
@@ -49,3 +51,4 @@ Once the firmware is built, it can be programmed onto a REDOUBLER using the $90 
 [Cypress PSoC Creator]: http://www.cypress.com/psoccreator/
 [Pogo Pins]: https://www.sparkfun.com/products/9174
 [example project]: http://www.element14.com/community/thread/28830/l/psoc-4-pioneer-kit-community-project102-usb-audio-using-the-psoc-5lp?displayFullThread=true
+[OSH park]: https://oshpark.com/shared_projects/GZnEjhlQ
