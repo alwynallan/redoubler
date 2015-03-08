@@ -10,7 +10,7 @@ By ennumerating as a standard USB microphone (sound card with one input) REDOUBL
 
 Non-deterministic random number generators use various methods to gather entropy. Avalance noise from a reverse-biased semiconductor junction is popular, but others include video of Lava Lamps, radios tuned away from stations, quantum effects, digital logic race conditions, and radioactive decay events. Modular Entropy Modulation (MEM) is a new method.
 
-Invented by the author, Peter Allan, in the late 1990's and independantly by Bill Cox in the early 2010's, MEM repeatedly compares a voltage with the midpoint of its range, then doubles either the voltage or excess over the midpoint as appropriate, and stores the result. Depending on the comparison, either a '0' or a '1' bit is output.
+Invented by the author, [Peter Allan], in the late 1990's and independantly by Bill Cox in the early 2010's, MEM repeatedly compares a voltage with the midpoint of its range, then doubles either the voltage or excess over the midpoint as appropriate, and stores the result. Depending on the comparison, either a '0' or a '1' bit is output.
 
 As a circuit, the analog part of MEM looks like this
 
@@ -26,8 +26,10 @@ Modular Entropy Multiplication has advantages over all other methods because it 
 
 ### The Firmware
 
-The firmware for REDOUBLER is written in the highly itegrated and free-to-use Cypress PSoC Creator development environment.
+The firmware for REDOUBLER is written in the highly itegrated and free-to-use [Cypress PSoC Creator] development environment. The source code is in the 
 
 ### Host Software
 
+[Peter Allan]: mailto:alwynallan@gmail.com
 [Infinite Noise TRNG]: https://github.com/waywardgeek/infnoise
+[Cypress PSoC Creator]: http://www.cypress.com/psoccreator/
