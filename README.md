@@ -16,7 +16,11 @@ As a circuit, the analog part of MEM looks like this
 
 ![Analog part of MEM Circuit](images/MEM_Circuit.png?raw=true "Circuit")
 
-The Track & Holds are where the voltages are stored, one for the source voltage and one for the result. The Comarators compare the stored voltages with the midpoint of their range, and produce a digital output based on the result. The Opamps double the input voltage and, depending on the result of the comparison, shift it by the voltage range. The clocks q and qp are symmetric and non-overlapping and control the pace of the circuit. In the REDOUBLER, all of the components except the resistors are reconfigurable analog blocks on a Cypress Semiconductor PSoC 5LP chip. It has two such generators operating simultaneously at 768,000 bps, for a combined output of 1,536,000 bps. The bitstream has about 7.9 bits/byte of entropy, and is unwhitened, leaving the host to apply a whitening filter if required. Here is one second worth of data as an image (click twice to see it full-scale).
+The Track and Holds store the voltages, one for the source voltage and one for the result. The Comarators compare the stored voltages with the midpoint of their range, and produce a digital output based on the result. The Opamps double the input voltage and, depending on the result of the comparison, shift it by the voltage range. The clocks q and qp are symmetric and non-overlapping and control the pace of the circuit. When recorded over time, the two voltages have characteristic time traces like this.
+
+![MEM Traces](images/Traces.png?raw=true "Traces")
+
+In the REDOUBLER, all of the components except the resistors are reconfigurable analog blocks on a Cypress Semiconductor PSoC 5LP chip. It has two such generators operating simultaneously at 768,000 bps, for a combined output of 1,536,000 bps. The bitstream has about 7.9 bits/byte of entropy, and is unwhitened, leaving the host to apply a whitening filter if required. Here is one second worth of data as an image (click twice to see it full-scale).
 
 ![One Second of Data](images/one_sec.png?raw=true "One Second")
 
