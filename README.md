@@ -32,7 +32,7 @@ The REDOUBLER circuit is designed in the latest free version of Cadsoft Eagle an
 
 ![Schematic](images/Schematic.png?raw=true "Schematic")
 
-The PSoC chip contains both reconfigurable analog components and digital logic, so the only componets unique to REDOUBLER are the eight resistors at top-right.
+The PSoC chip contains both reconfigurable analog components and digital logic, so the only components unique to REDOUBLER are the eight resistors at top-right.
 
 ![Board](images/Board.png?raw=true "Board")
 
