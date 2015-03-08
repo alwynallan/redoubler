@@ -26,7 +26,7 @@ Modular Entropy Multiplication has advantages over all other methods because it 
 
 ### The Firmware
 
-The firmware for REDOUBLER is written in the highly itegrated and free-to-use [Cypress PSoC Creator] development environment. The source code is in the 
+The firmware for REDOUBLER is written in the highly itegrated and free-to-use [Cypress PSoC Creator] development environment. The source code is in the [psoc_creator_firmware](psoc_creator_firmware) branch of this repository. I highly recommend this toolchain and microcontroller product line. Once the firmware is built, it can be programmed onto a REDOUBLER using the $90 [MiniProg3](http://www.cypress.com/?rID=38154) or the left portion of the $10 [CY8CKIT-059](http://www.cypress.com/?rid=108038).
 
 ### Host Software
 
