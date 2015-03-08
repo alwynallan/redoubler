@@ -28,9 +28,11 @@ Modular Entropy Multiplication has advantages over all other methods because it 
 
 ### The Circuit
 
+The circuit is designed in the latest free version of Cadsoft Eagle. The schematic
+
 ### The Firmware
 
-The firmware for REDOUBLER is written in the highly itegrated and free-to-use [Cypress PSoC Creator] development environment. The source code is in the [psoc_creator_firmware](psoc_creator_firmware) branch of this repository. I highly recommend this toolchain and microcontroller product line. The current state of the firmware source is efficient and reliable, but a litle rough looking. The USB audio fuctions were culled from an example project, and much of that code remains in comments.
+The firmware for REDOUBLER is written in the highly itegrated and free-to-use [Cypress PSoC Creator] development environment. The source code is in the [psoc_creator_firmware](psoc_creator_firmware) branch of this repository. I highly recommend this toolchain and microcontroller product line. The current state of the firmware source is efficient and reliable, but a litle rough looking. The USB audio fuctions were culled from an [example project], and much of that code remains in comments.
 
 Once the firmware is built, it can be programmed onto a REDOUBLER using the $90 [MiniProg3](http://www.cypress.com/?rID=38154) or the left portion of the $10 [CY8CKIT-059](http://www.cypress.com/?rid=108038). [Pogo Pins] are useful for connecting to the 5 pads on the REDOUBLER board.
 
