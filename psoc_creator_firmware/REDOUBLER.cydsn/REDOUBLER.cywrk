@@ -9,11 +9,13 @@
 <projects>
 <v>.\REDOUBLER.cyprj</v>
 </projects>
-<workspace_id v="5ebffcd5-9a9c-49de-a5e5-d2696359861d" />
+<workspace_id v="12ce66d4-6046-42bd-8ee3-1ebdcc72b053" />
 <WriteAppVersionLastSavedWith v="3.1.0.1722" />
 <WriteAppMarketingVersionLastSavedWith v="3.1 SP1" />
 <CyGuid_dcbd9771-0334-43dc-9cc3-fe99dc3c5316 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjDependencyList" version="4">
-<wrkspc_dependencies />
+<wrkspc_dependencies>
+<wrkspc_dependency project="REDOUBLER.cyprj" dependency=".\CyDigitalAudio.cylib\CyDigitalAudio.cyprj" />
+</wrkspc_dependencies>
 </CyGuid_dcbd9771-0334-43dc-9cc3-fe99dc3c5316>
 <CyGuid_63b68103-67f5-4406-8da6-5c8625765b82 type_name="CyDesigner.Common.ProjMgmt.Model.CyIgnoredSystemDepsList" version="1">
 <wrkspc_dependencies />

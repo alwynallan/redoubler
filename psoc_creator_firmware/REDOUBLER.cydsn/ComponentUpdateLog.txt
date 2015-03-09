@@ -1,0 +1,20 @@
+Last Modified Date & Time: 02/06/2015 16:21:20
+
+FiReBuG as Mic: TopDesign
+	Pin_12 [v2.5] to [v2.10]
+	Pin_11 [v2.5] to [v2.10]
+	Pin_10 [v2.5] to [v2.10]
+	Pin_9 [v2.5] to [v2.10]
+	Pin_4 [v2.5] to [v2.10]
+	Pin_5 [v2.5] to [v2.10]
+	Pin_6 [v2.5] to [v2.10]
+	Pin_1 [v2.5] to [v2.10]
+	Pin_7 [v2.5] to [v2.10]
+	Pin_8 [v2.5] to [v2.10]
+	Pin_3 [v2.5] to [v2.10]
+	Pin_2 [v2.5] to [v2.10]
+
+FiReBuG as Mic: Design Wide APIs
+	cy_boot [v4.11] to [v4.20]
+
+
