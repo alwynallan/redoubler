@@ -1,7 +1,6 @@
 # Linux Host Software
 
-When plugged into a properly configured Linux machine the device will cause
-a message at the end of the dmsg list:
+When plugged into a properly configured Linux machine the device will cause a message at the end of the dmesg list:
 ```
 $ dmesg
 [395858.273621] usb 1-1.2.2: new full-speed USB device number 15 using dwc_otg
