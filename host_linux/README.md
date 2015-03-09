@@ -30,7 +30,7 @@ card 1: Generat_1 [REDOUBLER Random Number Generat], device 0: USB Audio [USB Au
 ```
 Again, the REDOUBLER is listed as card 1.
 
-To record some data from the redoubler we refer to it as hw:1,0 where the first
+To record some data from the REDOUBLER we refer to it as hw:1,0 where the first
 number is the card #. In this case
 ```
 $ arecord -f dat -D hw:1,0 -d 10 > sample.wav
