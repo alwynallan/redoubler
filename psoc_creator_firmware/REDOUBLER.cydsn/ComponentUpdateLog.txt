@@ -18,3 +18,21 @@ FiReBuG as Mic: Design Wide APIs
 	cy_boot [v4.11] to [v4.20]
 
 
+Last Modified Date & Time: 03/10/2015 07:16:11
+
+REDOUBLER: TopDesign
+	USBFS [v2.60] to [v2.70]
+
+
+Last Modified Date & Time: 03/10/2015 07:27:41
+
+REDOUBLER: TopDesign
+	USBFS [v2.70] to [v2.80]
+
+
+Last Modified Date & Time: 03/10/2015 07:39:44
+
+REDOUBLER: TopDesign
+	USBFS_1 [v2.60] to [v2.80]
+
+
