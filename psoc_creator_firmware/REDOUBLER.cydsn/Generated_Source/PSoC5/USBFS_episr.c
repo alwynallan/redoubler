@@ -29,15 +29,15 @@
 * Custom Declarations
 ***************************************/
 /* `#START CUSTOM_DECLARATIONS` Place your declaration here */
-#include <Configuration.h>
-#include <Application.h>
+//#include <Configuration.h>
+//#include <Application.h>
 #include <AudioControl.h>
-#include <device.h>
-#include <USBInterface.h>
+//#include <device.h>
+//#include <USBInterface.h>
 
-#ifndef ENABLE_DIGITAL_AUDIO_OUT_ONLY
-extern CYBIT inPlaying;
-#endif
+//#ifndef ENABLE_DIGITAL_AUDIO_OUT_ONLY
+//extern CYBIT inPlaying;
+//#endif
 /* `#END` */
 
 
@@ -66,9 +66,7 @@ extern CYBIT inPlaying;
         #endif /* USBFS_ISR_SERVICE_MIDI_OUT && CY_PSOC3 */
 
         /* `#START EP1_USER_CODE` Place your code here */
-		#ifndef ENABLE_DIGITAL_AUDIO_IN_ONLY
-		ProcessAudioOut();
-		#endif
+
         /* `#END` */
 
         #if (defined(USBFS_ENABLE_MIDI_STREAMING) && !defined(USBFS_MAIN_SERVICE_MIDI_OUT) && \
