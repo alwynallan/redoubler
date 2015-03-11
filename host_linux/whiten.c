@@ -26,10 +26,10 @@ int main()
     ECRYPT_encrypt_bytes(&x,buf,obuf,bytes);
     fwrite(obuf,1,bytes,stdout);
     // should re-initialize iv every 195 million years for REDOUBLER
-	for(i=1; i<EXPANSION; i++){
+    for(i=1; i<EXPANSION; i++){
       ECRYPT_keystream_bytes(&x,obuf,64);
       fwrite(obuf,1,64,stdout);
-	}
+    }
   }
   return 0;
 }
