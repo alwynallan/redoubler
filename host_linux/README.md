@@ -94,3 +94,23 @@ Arithmetic mean value of data bytes is 126.9712 (127.5 = random).
 Monte Carlo value for Pi is 3.271305422 (error 4.13 percent).
 Serial correlation coefficient is -0.005054 (totally uncorrelated = 0.0).
 ```
+The 'make' command also creates the filter **whiten** which takes non-deterministic but biased, correlated, and otherwise flawed data on stdin and produces statistically perfect random data on stdout. E.g.
+```
+$ doubledown -c1 -k1024 | whiten | rngtest
+Copyright (c) 2004 by Henrique de Moraes Holschuh
+This is free software; see the source for copying conditions.  There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+rngtest: starting FIPS tests...
+rngtest: entropy source exhausted!
+rngtest: bits received from input: 8395200
+rngtest: FIPS 140-2 successes: 418
+rngtest: FIPS 140-2 failures: 1
+rngtest: FIPS 140-2(2001-10-10) Monobit: 0
+rngtest: FIPS 140-2(2001-10-10) Poker: 0
+rngtest: FIPS 140-2(2001-10-10) Runs: 1
+rngtest: FIPS 140-2(2001-10-10) Long run: 0
+rngtest: FIPS 140-2(2001-10-10) Continuous run: 0
+rngtest: input channel speed: (min=1.021; avg=2.023; max=1059.638)Mibits/s
+rngtest: FIPS tests speed: (min=2.557; avg=5.404; max=6.137)Mibits/s
+rngtest: Program run time: 5659664 microseconds
+```
