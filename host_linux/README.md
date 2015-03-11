@@ -94,7 +94,7 @@ Arithmetic mean value of data bytes is 126.9712 (127.5 = random).
 Monte Carlo value for Pi is 3.271305422 (error 4.13 percent).
 Serial correlation coefficient is -0.005054 (totally uncorrelated = 0.0).
 ```
-The 'make' command also creates the filter **whiten** which takes non-deterministic but biased, correlated, and otherwise flawed data on stdin and produces statistically perfect random data on stdout. E.g.
+The 'make' command also creates the filter **whiten** which uses the chacha20 block cipher ot take non-deterministic but biased, correlated, and otherwise flawed data on stdin and produce statistically perfect random data on stdout, e.g.
 ```
 $ doubledown -c1 -k1024 | whiten | rngtest
 Copyright (c) 2004 by Henrique de Moraes Holschuh
