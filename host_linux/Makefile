@@ -1,4 +1,4 @@
-TARGETS = doubledown oddbits evenbits
+TARGETS = doubledown oddbits evenbits whiten
 BINDIR = /usr/local/bin
 all: $(TARGETS)
 
@@ -10,6 +10,12 @@ oddbits: oddbits.c
 
 evenbits: oddbits
 	ln -f oddbits evenbits
+
+whiten: whiten.c chacha.o
+	gcc -Wall whiten.c chacha.o -o whiten
+
+chacha.o: chacha.c
+	gcc -Wall -c chacha.c
 
 install: all
 	install -m 0755 $(TARGETS) $(BINDIR)
