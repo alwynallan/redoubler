@@ -6,6 +6,12 @@ Public domain.
 
 #include "ecrypt-sync.h"
 
+// This source and the include file above came from
+//     http://cr.yp.to/chacha.html
+// on the "merged" line.
+// One change, apart form this comment, is 8 --> 20 as noted below.
+// A. Peter Allan, March 2015
+
 #define ROTATE(v,c) (ROTL32(v,c))
 #define XOR(v,w) ((v) ^ (w))
 #define PLUS(v,w) (U32V((v) + (w)))
@@ -107,7 +113,7 @@ void ECRYPT_encrypt_bytes(ECRYPT_ctx *x,const u8 *m,u8 *c,u32 bytes)
     x13 = j13;
     x14 = j14;
     x15 = j15;
-    for (i = 8;i > 0;i -= 2) { // APA should this be 20 for chacha20? Assuming so
+    for (i = 20;i > 0;i -= 2) { // APA should this be 20 for chacha20? Assuming so
       QUARTERROUND( x0, x4, x8,x12)
       QUARTERROUND( x1, x5, x9,x13)
       QUARTERROUND( x2, x6,x10,x14)
