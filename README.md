@@ -6,9 +6,9 @@ REDOUBLER is a Random Number Generator based on Modular Entropy Multiplication. 
 
 By enumerating as a standard USB microphone (sound card with one input) REDOUBLER does not require drivers on any major operating system. This simplifies development, and reduces the "attack surface" that an adversary can use to compromise security. Moreover, the data paths used by microphones are highly optimized for efficiency.
 
-### Modular Entropy Modulation
+### Modular Entropy Multiplication
 
-Non-deterministic random number generators use various methods to gather entropy. Avalanche noise from reverse-biased semiconductor junctions is popular, but others include video of Lava Lamps, radios tuned away from stations, quantum effects, digital logic race conditions, and radioactive decay events. Modular Entropy Modulation (MEM) is a new method.
+Non-deterministic random number generators use various methods to gather entropy. Avalanche noise from reverse-biased semiconductor junctions is popular, but others include video of Lava Lamps, radios tuned away from stations, quantum effects, digital logic race conditions, and radioactive decay events. Modular Entropy Multiplication (MEM) is a new method.
 
 Invented by the author, [Peter Allan], in the late 1990's and independently by Bill Cox in the early 2010's, MEM repeatedly compares a voltage with the midpoint of its range, then doubles either the voltage or excess over the midpoint as appropriate, and stores the result. Depending on the comparison, either a '0' or a '1' bit is output.
 
