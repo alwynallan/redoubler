@@ -103,3 +103,4 @@ rngtest: input channel speed: (min=1.021; avg=2.023; max=1059.638)Mibits/s
 rngtest: FIPS tests speed: (min=2.557; avg=5.404; max=6.137)Mibits/s
 rngtest: Program run time: 5659664 microseconds
 ```
+There is also a **runs** program that checks binary data for excessive gaps and blocks.
