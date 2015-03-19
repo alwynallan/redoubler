@@ -44,6 +44,8 @@ The firmware for REDOUBLER is written in the highly integrated and free-to-use [
 
 Once the firmware is built, it can be programmed onto a REDOUBLER using the $90 [MiniProg3](http://www.cypress.com/?rID=38154) or the left portion of the $10 [CY8CKIT-059](http://www.cypress.com/?rid=108038). [Pogo Pins] are useful for connecting to the 5 pads on the REDOUBLER board.
 
+REDOUBLER uses a USB product ID granted by [openmoko.org].
+
 ### Host Software
 
 As open source software, users are asked to contribute their developments back to this repository. For now support is sparse. Anything that can be done with a USB microphone can be done with REDOUBLER. [Linux](host_linux) is likely to be best supported, but [Windows](host_windows) and Mac [OS-X](host_osx) will have branches here too. Audacity runs on all three platforms, and can be used to record, view, manipulate and save data from REDOUBLER, so we know everything's possible.
@@ -56,3 +58,4 @@ Ultimately the goal is for REDOUBLER to be plugged into any flavor of machine, a
 [Pogo Pins]: https://www.sparkfun.com/products/9174
 [example project]: http://www.element14.com/community/thread/28830/l/psoc-4-pioneer-kit-community-project102-usb-audio-using-the-psoc-5lp?displayFullThread=true
 [OSH park]: https://oshpark.com/shared_projects/GZnEjhlQ
+[openmoko.org]: http://wiki.openmoko.org/wiki/USB_Product_IDs
