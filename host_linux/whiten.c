@@ -36,13 +36,13 @@ int main(int argc, char *argv[])
       break;
     default: /* '?' */
       fprintf(stderr, "Usage: %s [-k keying_rounds] [-e expansion_factor]\n", argv[0]);
-	  fprintf(stderr, "    Takes a high-entropy binary source on stdin and uses ChaCha20 to whiten\n");
-	  fprintf(stderr, "    the bitstream, sending it to stdout.\n");
-	  fprintf(stderr, "        -k keying_rounds takes an integer 1...2^31, default %d for how many\n", KEY_ROUNDS);
+      fprintf(stderr, "    Takes a high-entropy binary source on stdin and uses ChaCha20 to whiten\n");
+      fprintf(stderr, "    the bitstream, sending it to stdout.\n");
+      fprintf(stderr, "        -k keying_rounds takes an integer 1...2^31, default %d for how many\n", KEY_ROUNDS);
       fprintf(stderr, "           times the input is XORed into the key and initial value.\n");
-	  fprintf(stderr, "        -e expansion_factor takes an integer 1...2^31, default %d for the\n", EXPANSION);
+      fprintf(stderr, "        -e expansion_factor takes an integer 1...2^31, default %d for the\n", EXPANSION);
       fprintf(stderr, "           number of 64-byte blocks that are output for each 64-byte block\n");
-	  fprintf(stderr, "           of input.\n");
+      fprintf(stderr, "           of input.\n");
       exit(EXIT_FAILURE);
     }
   }
