@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 {
   int mask[]={1,2,4,8,16,32,64,128};
   int max[]={0,0};
-  int c, i, k, state, bit, run;
+  int c, i, k, k2, state, bit, run;
   unsigned long bytes;
   unsigned long *bg[2];
   double n, ei;
@@ -74,7 +74,11 @@ int main(int argc, char *argv[])
   bit=0;
   } while((c=fgetc(fo))>=0 && bytes++);
   if(argc==2) fclose(fo);
-  else n=(double)bytes*8.;
+  else{
+    n=(double)bytes*8.;
+    for(k2=1;((n-k2+3)/pow(2.,k2+2))>=5.;k2++); k2--;
+    if(k2<k) k=k2;
+  }
   fo=fopen("runs.dat","w");
   fprintf(fo,"File: %s, %lu bytes\n",argv[1],bytes);
   fprintf(fo," %3s %14s %12s %12s\n","i","ei","Gi","Bi");

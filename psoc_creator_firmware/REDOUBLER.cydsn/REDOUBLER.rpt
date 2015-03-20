@@ -1,13 +1,13 @@
-Loading plugins phase: Elapsed time ==> 0s.556ms
+Loading plugins phase: Elapsed time ==> 0s.327ms
 Initializing data phase: Elapsed time ==> 0s.000ms
 <CYPRESSTAG name="CyDsfit arguments...">
 cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p \\apa-store\peter\Docs\Consult\ORB\FiReBuG\USB Prototype\REDOUBLER\alwynallan\redoubler\psoc_creator_firmware\REDOUBLER.cydsn\REDOUBLER.cyprj -d CY8C5666LTI-LP005 -s \\apa-store\peter\Docs\Consult\ORB\FiReBuG\USB Prototype\REDOUBLER\alwynallan\redoubler\psoc_creator_firmware\REDOUBLER.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 6s.761ms
+Elaboration phase: Elapsed time ==> 5s.350ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 0s.304ms
+HDL generation phase: Elapsed time ==> 0s.218ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -41,7 +41,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\apa-store\pe
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Wed Mar 18 17:18:53 2015
+Thu Mar 19 19:09:50 2015
 
 
 ======================================================================
@@ -51,7 +51,7 @@ Options  :    -yv2 -q10 REDOUBLER.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Wed Mar 18 17:18:53 2015
+Thu Mar 19 19:09:50 2015
 
 Flattening file 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\..\psoc\content\cyprimitives\CyPrimitives.cylib\cydff_v1_30\cydff_v1_30.v'
 Flattening file 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\..\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'
@@ -107,7 +107,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\apa-store\pe
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Wed Mar 18 17:18:54 2015
+Thu Mar 19 19:09:51 2015
 
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -152,7 +152,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\apa-store\pe
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Wed Mar 18 17:18:58 2015
+Thu Mar 19 19:09:53 2015
 
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -1611,14 +1611,14 @@ CYPRESS_DIR    : C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp
 Warp Program   : C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\bin/warp.exe
 Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=\\apa-store\peter\Docs\Consult\ORB\FiReBuG\USB Prototype\REDOUBLER\alwynallan\redoubler\psoc_creator_firmware\REDOUBLER.cydsn\REDOUBLER.cyprj" -dcpsoc3 REDOUBLER.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 8s.305ms
+Warp synthesis phase: Elapsed time ==> 6s.240ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V3.1.0.1722, Family: PSoC3, Started at: Wednesday, 18 March 2015 17:19:01
+cyp3fit: V3.1.0.1722, Family: PSoC3, Started at: Thursday, 19 March 2015 19:09:56
 Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\apa-store\peter\Docs\Consult\ORB\FiReBuG\USB Prototype\REDOUBLER\alwynallan\redoubler\psoc_creator_firmware\REDOUBLER.cydsn\REDOUBLER.cyprj -d CY8C5666LTI-LP005 REDOUBLER.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
-Design parsing phase: Elapsed time ==> 0s.087ms
+Design parsing phase: Elapsed time ==> 0s.078ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
@@ -3850,8 +3850,8 @@ EMIF Fixed Blocks             :    0 :    1 :    1 :   0.00%
 LPF Fixed Blocks              :    0 :    2 :    2 :   0.00%
 SAR Fixed Blocks              :    0 :    1 :    1 :   0.00%
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 1s.496ms
-Tech mapping phase: Elapsed time ==> 1s.801ms
+Technology Mapping: Elapsed time ==> 1s.350ms
+Tech mapping phase: Elapsed time ==> 1s.740ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
 Initial Analog Placement Results:
@@ -3924,7 +3924,7 @@ SC[2]@[FFB(SC,2)] : \Sample_Hold_3:SC\
 USB[0]@[FFB(USB,0)] : \USBFS:USB\
 Vref[1]@[FFB(Vref,1)] : vRef_1
 
-Analog Placement phase: Elapsed time ==> 13s.509ms
+Analog Placement phase: Elapsed time ==> 12s.124ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
 Net "u0o" overuses wire "AGR[5]"
@@ -3946,7 +3946,7 @@ Net "u0i" overuses wire "AGL[5]"
 Net "u0i" overuses wire "AGL[5]"
 Net "u1i" overuses wire "AGR[4]"
 Net "u1i" overuses wire "AGR[4]"
-Analog Routing phase: Elapsed time ==> 0s.220ms
+Analog Routing phase: Elapsed time ==> 0s.218ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Code Generation">
 ============ Analog Final Answer Routes ============
@@ -4173,11 +4173,11 @@ Dump of CyP35AnalogRoutingResultsDB
 IsVddaHalfUsedForComp = True
 IsVddaHalfUsedForSar0 = False
 IsVddaHalfUsedForSar1 = False
-Analog Code Generation phase: Elapsed time ==> 0s.839ms
+Analog Code Generation phase: Elapsed time ==> 0s.795ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
-I2076: Total run-time: 4.0 sec.
+I2076: Total run-time: 4.3 sec.
 
 </CYPRESSTAG>
 <CYPRESSTAG name="PLD Packing">
@@ -4201,17 +4201,17 @@ PLD Packing Summary
 <CYPRESSTAG name="Packed PLD Contents">
 Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
 </CYPRESSTAG>
-PLD Packing: Elapsed time ==> 0s.003ms
+PLD Packing: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Partitioning">
 <CYPRESSTAG name="Initial Partitioning Summary">
 Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
 <CYPRESSTAG name="Final Partitioning Summary">
 Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
-Partitioning: Elapsed time ==> 0s.229ms
+Partitioning: Elapsed time ==> 0s.279ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Simulated Annealing">
-Annealing: Elapsed time ==> 0s.004ms
+Annealing: Elapsed time ==> 0s.010ms
 <CYPRESSTAG name="Simulated Annealing Results">
 The seed used for moves was 114161200.
 Inital cost was 793, final cost is 793 (0.00% improvement).</CYPRESSTAG>
@@ -6900,32 +6900,32 @@ Port | Pin | Fixed |      Type |       Drive Mode |          Name | Connections
 </CYPRESSTAG>
 </CYPRESSTAG>
 </CYPRESSTAG>
-Digital component placer commit/Report: Elapsed time ==> 0s.027ms
-Digital Placement phase: Elapsed time ==> 5s.006ms
+Digital component placer commit/Report: Elapsed time ==> 0s.034ms
+Digital Placement phase: Elapsed time ==> 5s.584ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 Routing successful.
-Digital Routing phase: Elapsed time ==> 8s.137ms
+Digital Routing phase: Elapsed time ==> 8s.496ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream and API generation">
-Bitstream and API generation phase: Elapsed time ==> 1s.245ms
+Bitstream and API generation phase: Elapsed time ==> 1s.042ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream verification">
-Bitstream verification phase: Elapsed time ==> 0s.134ms
+Bitstream verification phase: Elapsed time ==> 0s.110ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in REDOUBLER_timing.html.
-Static timing analysis phase: Elapsed time ==> 1s.484ms
+Static timing analysis phase: Elapsed time ==> 1s.334ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
 Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.602ms
+Design database save phase: Elapsed time ==> 0s.580ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 33s.146ms
+cydsfit: Elapsed time ==> 32s.188ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 33s.283ms
-API generation phase: Elapsed time ==> 6s.573ms
-Dependency generation phase: Elapsed time ==> 0s.107ms
-Cleanup phase: Elapsed time ==> 0s.011ms
+Fitter phase: Elapsed time ==> 32s.297ms
+API generation phase: Elapsed time ==> 4s.710ms
+Dependency generation phase: Elapsed time ==> 0s.110ms
+Cleanup phase: Elapsed time ==> 0s.050ms
