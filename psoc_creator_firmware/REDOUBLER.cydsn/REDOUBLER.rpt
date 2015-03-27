@@ -1,13 +1,13 @@
-Loading plugins phase: Elapsed time ==> 0s.327ms
+Loading plugins phase: Elapsed time ==> 0s.319ms
 Initializing data phase: Elapsed time ==> 0s.000ms
 <CYPRESSTAG name="CyDsfit arguments...">
 cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p \\apa-store\peter\Docs\Consult\ORB\FiReBuG\USB Prototype\REDOUBLER\alwynallan\redoubler\psoc_creator_firmware\REDOUBLER.cydsn\REDOUBLER.cyprj -d CY8C5666LTI-LP005 -s \\apa-store\peter\Docs\Consult\ORB\FiReBuG\USB Prototype\REDOUBLER\alwynallan\redoubler\psoc_creator_firmware\REDOUBLER.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
 <CYPRESSTAG name="Design elaboration results...">
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 5s.350ms
+Elaboration phase: Elapsed time ==> 5s.809ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 0s.218ms
+HDL generation phase: Elapsed time ==> 0s.265ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -41,7 +41,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\apa-store\pe
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Thu Mar 19 19:09:50 2015
+Tue Mar 24 14:09:32 2015
 
 
 ======================================================================
@@ -51,7 +51,7 @@ Options  :    -yv2 -q10 REDOUBLER.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Thu Mar 19 19:09:50 2015
+Tue Mar 24 14:09:32 2015
 
 Flattening file 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\..\psoc\content\cyprimitives\CyPrimitives.cylib\cydff_v1_30\cydff_v1_30.v'
 Flattening file 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\..\psoc\content\cyprimitives\CyPrimitives.cylib\not_v1_0\not_v1_0.v'
@@ -75,6 +75,9 @@ Flattening file 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\..\
 Flattening file 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\..\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'
 Flattening file 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\..\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_70\CyControlReg_v1_70.v'
 Flattening file 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\..\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\AMux_v1_80\AMux_v1_80.v'
+Flattening file 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\..\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'
 
 vpp:  No errors.
 
@@ -107,7 +110,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\apa-store\pe
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Thu Mar 19 19:09:51 2015
+Tue Mar 24 14:09:33 2015
 
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -138,6 +141,8 @@ Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cyp
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\mux_v1_10\mux_v1_10.v'.
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'.
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_70\CyControlReg_v1_70.v'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\AMux_v1_80\AMux_v1_80.v'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'.
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\lib\lcpsoc3\stdlogic\mod_cnst.vif'.
@@ -152,7 +157,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\apa-store\pe
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Thu Mar 19 19:09:53 2015
+Tue Mar 24 14:09:36 2015
 
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -183,6 +188,8 @@ Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cyp
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\mux_v1_10\mux_v1_10.v'.
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\and_v1_0\and_v1_0.v'.
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyControlReg_v1_70\CyControlReg_v1_70.v'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\AMux_v1_80\AMux_v1_80.v'.
+Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'.
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
 Linking 'C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\lib\lcpsoc3\stdlogic\mod_cnst.vif'.
@@ -525,6 +532,8 @@ Detecting unused logic.
 	\FreqDiv_3:MODULE_3:g2:a0:g1:z1:s0:g1:u0:c_27\
 	\FreqDiv_3:MODULE_3:g2:a0:g1:z1:s0:g1:u0:c_26\
 	\FreqDiv_3:MODULE_3:g2:a0:g1:z1:s0:g1:u0:c_25\
+	\ADC_DelSig_1:Net_268\
+	\ADC_DelSig_1:Net_270\
 
     Synthesized names
 	\FreqDiv_1:add_vi_vv_MODGEN_1_31\
@@ -606,7 +615,7 @@ Detecting unused logic.
 	\FreqDiv_3:add_vi_vv_MODGEN_3_7\
 	\FreqDiv_3:add_vi_vv_MODGEN_3_6\
 
-Deleted 332 User equations/components.
+Deleted 334 User equations/components.
 Deleted 78 Synthesized equations/components.
 
 ------------------------------------------------------
@@ -722,6 +731,9 @@ Aliasing \FreqDiv_3:MODULE_3:g2:a0:a_8\ to zero
 Aliasing \FreqDiv_3:MODULE_3:g2:a0:a_7\ to zero
 Aliasing \FreqDiv_3:MODULE_3:g2:a0:a_6\ to zero
 Aliasing \FreqDiv_3:MODULE_3:g2:a0:g1:z1:s0:g1:u0:b_0\ to one
+Aliasing \ADC_DelSig_1:Net_482\ to zero
+Aliasing \ADC_DelSig_1:Net_252\ to zero
+Aliasing \ADC_DelSig_1:soc\ to one
 Aliasing cydff_34D to \Status_Reg_1:status_2\
 Aliasing cydff_35D to \Status_Reg_1:status_3\
 Aliasing cydff_36D to \Status_Reg_1:status_4\
@@ -950,20 +962,25 @@ Removing Lhs of wire \FreqDiv_3:MODULE_3:g2:a0:a_0\[1182] = \FreqDiv_3:MODIN3_0\
 Removing Lhs of wire \FreqDiv_3:MODIN3_0\[1183] = \FreqDiv_3:count_0\[1107]
 Removing Lhs of wire \FreqDiv_3:MODULE_3:g2:a0:g1:z1:s0:g1:u0:c_0\[1311] = one[15]
 Removing Lhs of wire \FreqDiv_3:MODULE_3:g2:a0:g1:z1:s0:g1:u0:b_0\[1312] = one[15]
-Removing Lhs of wire cydff_1D[1315] = GenClock[2]
-Removing Lhs of wire \AudioClkGen:UDB_ACG:sync:lastSof\\D\[1320] = Net_3097[11]
-Removing Lhs of wire cydff_34D[1331] = Net_4249[281]
-Removing Lhs of wire cydff_35D[1336] = Net_3941[283]
-Removing Lhs of wire cydff_36D[1337] = n4[285]
-Removing Lhs of wire cydff_37D[1338] = n2[287]
-Removing Lhs of wire cydff_38D[1339] = n3[289]
-Removing Lhs of wire cydff_39D[1340] = n1[291]
-Removing Lhs of wire cydff_40D[1341] = Net_4253[821]
-Removing Lhs of wire cydff_41D[1342] = Net_3951[823]
-Removing Lhs of wire cydff_2D[1356] = Net_4287[1067]
+Removing Rhs of wire \ADC_DelSig_1:Net_488\[1326] = \ADC_DelSig_1:Net_250\[1361]
+Removing Lhs of wire \ADC_DelSig_1:Net_481\[1328] = zero[37]
+Removing Lhs of wire \ADC_DelSig_1:Net_482\[1329] = zero[37]
+Removing Lhs of wire \ADC_DelSig_1:Net_252\[1363] = zero[37]
+Removing Lhs of wire \ADC_DelSig_1:soc\[1365] = one[15]
+Removing Lhs of wire cydff_1D[1369] = GenClock[2]
+Removing Lhs of wire \AudioClkGen:UDB_ACG:sync:lastSof\\D\[1374] = Net_3097[11]
+Removing Lhs of wire cydff_34D[1385] = Net_4249[281]
+Removing Lhs of wire cydff_35D[1390] = Net_3941[283]
+Removing Lhs of wire cydff_36D[1391] = n4[285]
+Removing Lhs of wire cydff_37D[1392] = n2[287]
+Removing Lhs of wire cydff_38D[1393] = n3[289]
+Removing Lhs of wire cydff_39D[1394] = n1[291]
+Removing Lhs of wire cydff_40D[1395] = Net_4253[821]
+Removing Lhs of wire cydff_41D[1396] = Net_3951[823]
+Removing Lhs of wire cydff_2D[1410] = Net_4287[1067]
 
 ------------------------------------------------------
-Aliased 0 equations, 233 wires.
+Aliased 0 equations, 238 wires.
 ------------------------------------------------------
 
 ----------------------------------------------------------
@@ -1537,10 +1554,10 @@ Removing Lhs of wire \FreqDiv_2:MODULE_2:g2:a0:g1:z1:s0:g1:u0:b_16\[1046] = zero
 Removing Lhs of wire \FreqDiv_3:MODULE_3:g2:a0:g1:z1:s0:g1:u0:b_24\[1282] = zero[37]
 Removing Lhs of wire \FreqDiv_3:MODULE_3:g2:a0:g1:z1:s0:g1:u0:b_16\[1292] = zero[37]
 Removing Lhs of wire \FreqDiv_3:MODULE_3:g2:a0:g1:z1:s0:g1:u0:b_8\[1302] = zero[37]
-Removing Lhs of wire \FreqDiv_1:not_last_reset\\D\[1332] = one[15]
-Removing Lhs of wire cy_tff_3D[1343] = Net_4003[631]
-Removing Lhs of wire \FreqDiv_2:not_last_reset\\D\[1344] = one[15]
-Removing Lhs of wire \FreqDiv_3:not_last_reset\\D\[1358] = one[15]
+Removing Lhs of wire \FreqDiv_1:not_last_reset\\D\[1386] = one[15]
+Removing Lhs of wire cy_tff_3D[1397] = Net_4003[631]
+Removing Lhs of wire \FreqDiv_2:not_last_reset\\D\[1398] = one[15]
+Removing Lhs of wire \FreqDiv_3:not_last_reset\\D\[1412] = one[15]
 
 ------------------------------------------------------
 Aliased 0 equations, 13 wires.
@@ -1611,14 +1628,14 @@ CYPRESS_DIR    : C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp
 Warp Program   : C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\warp\bin/warp.exe
 Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=\\apa-store\peter\Docs\Consult\ORB\FiReBuG\USB Prototype\REDOUBLER\alwynallan\redoubler\psoc_creator_firmware\REDOUBLER.cydsn\REDOUBLER.cyprj" -dcpsoc3 REDOUBLER.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 6s.240ms
+Warp synthesis phase: Elapsed time ==> 6s.409ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V3.1.0.1722, Family: PSoC3, Started at: Thursday, 19 March 2015 19:09:56
+cyp3fit: V3.1.0.1722, Family: PSoC3, Started at: Tuesday, 24 March 2015 14:09:39
 Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=\\apa-store\peter\Docs\Consult\ORB\FiReBuG\USB Prototype\REDOUBLER\alwynallan\redoubler\psoc_creator_firmware\REDOUBLER.cydsn\REDOUBLER.cyprj -d CY8C5666LTI-LP005 REDOUBLER.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
-Design parsing phase: Elapsed time ==> 0s.078ms
+Design parsing phase: Elapsed time ==> 0s.159ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
@@ -1641,7 +1658,9 @@ Assigning clock USBFS_Clock_vbus_3 to clock BUS_CLK because it is a pass-through
     Digital Clock 0: Automatic-assigning  clock 'Clock_CIC'. Fanout=25, Signal=Net_4258
     Digital Clock 1: Automatic-assigning  clock 'AudioClkGen_Clock_SCK'. Fanout=0, Signal=Net_55
     Digital Clock 2: Automatic-assigning  clock 'AudioClkGen_Clock_I2S'. Fanout=0, Signal=I2Sclk
-    Digital Clock 3: Automatic-assigning  clock 'AudioClkGen_Ref'. Fanout=1, Signal=Net_3093
+    Digital Clock 3: Automatic-assigning  clock 'ADC_DelSig_1_Ext_CP_Clk'. Fanout=1, Signal=\ADC_DelSig_1:Net_93\
+    Digital Clock 4: Automatic-assigning  clock 'AudioClkGen_Ref'. Fanout=1, Signal=Net_3093
+    Analog  Clock 0: Automatic-assigning  clock 'ADC_DelSig_1_theACLK'. Fanout=1, Signal=\ADC_DelSig_1:Net_488\
 </CYPRESSTAG>
 
 Removing unused cells resulting from optimization
@@ -3210,6 +3229,16 @@ Design Equations
         );
         Output = \FreqDiv_3:not_last_reset\ (fanout=7)
 
+    MacroCell: Name=__ONE__, Mode=(Combinatorial)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        !(
+            0
+        );
+        Output = __ONE__ (fanout=1)
+
     MacroCell: Name=cydff_2, Mode=(D-Register)
         Total # of inputs        : 4
         Total # of product terms : 1
@@ -3714,6 +3743,14 @@ Design Equations
     Interrupt listing
     ------------------------------------------------------------
 
+    interrupt: Name =\ADC_DelSig_1:IRQ\
+        PORT MAP (
+            interrupt => Net_4404 );
+        Properties:
+        {
+            int_type = "10"
+        }
+
     interrupt: Name =\USBFS:EP_DMA_Done_isr\
         PORT MAP (
             interrupt => \USBFS:Net_1522\ );
@@ -3819,10 +3856,10 @@ Technology mapping summary
 
 Resource Type                 : Used : Free :  Max :  % Used
 ============================================================
-Digital clock dividers        :    4 :    4 :    8 :  50.00%
-Analog clock dividers         :    0 :    4 :    4 :   0.00%
+Digital clock dividers        :    5 :    3 :    8 :  62.50%
+Analog clock dividers         :    1 :    3 :    4 :  25.00%
 Pins                          :   17 :   31 :   48 :  35.42%
-UDB Macrocells                :   52 :  108 :  160 :  32.50%
+UDB Macrocells                :   53 :  107 :  160 :  33.13%
 UDB Unique Pterms             :   91 :  229 :  320 :  28.44%
 UDB Total Pterms              :  102 :      :      : 
 UDB Datapath Cells            :    6 :   14 :   20 :  30.00%
@@ -3833,14 +3870,14 @@ UDB Status Cells              :    5 :   15 :   20 :  25.00%
 UDB Control Cells             :    1 :   19 :   20 :   5.00%
             Control Registers :    1 
 DMA Channels                  :    5 :   19 :   24 :  20.83%
-Interrupts                    :   12 :   20 :   32 :  37.50%
-DSM Fixed Blocks              :    0 :    1 :    1 :   0.00%
+Interrupts                    :   13 :   19 :   32 :  40.63%
+DSM Fixed Blocks              :    1 :    0 :    1 : 100.00%
 VIDAC Fixed Blocks            :    0 :    4 :    4 :   0.00%
 SC Fixed Blocks               :    4 :    0 :    4 : 100.00%
 Comparator Fixed Blocks       :    4 :    0 :    4 : 100.00%
 Opamp Fixed Blocks            :    4 :    0 :    4 : 100.00%
 CapSense Buffers              :    0 :    2 :    2 :   0.00%
-Decimator Fixed Blocks        :    0 :    1 :    1 :   0.00%
+Decimator Fixed Blocks        :    1 :    0 :    1 : 100.00%
 I2C Fixed Blocks              :    0 :    1 :    1 :   0.00%
 Timer Fixed Blocks            :    0 :    4 :    4 :   0.00%
 DFB Fixed Blocks              :    0 :    1 :    1 :   0.00%
@@ -3850,10 +3887,11 @@ EMIF Fixed Blocks             :    0 :    1 :    1 :   0.00%
 LPF Fixed Blocks              :    0 :    2 :    2 :   0.00%
 SAR Fixed Blocks              :    0 :    1 :    1 :   0.00%
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 1s.350ms
-Tech mapping phase: Elapsed time ==> 1s.740ms
+Technology Mapping: Elapsed time ==> 1s.337ms
+Tech mapping phase: Elapsed time ==> 1s.560ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Placement">
+Info: apr.M0002: Analog signal "\ADC_DelSig_1:Net_690\" is connected to one terminal only. (App=cydsfit)
 Initial Analog Placement Results:
 IO_7@[IOP=(0)][IoId=(7)] : C0o(0) (fixed)
 IO_5@[IOP=(3)][IoId=(5)] : C1o(0) (fixed)
@@ -3877,19 +3915,21 @@ OpAmp[3]@[FFB(OpAmp,3)] : \Opamp_3:ABuf\ (fixed)
 OpAmp[2]@[FFB(OpAmp,2)] : \Opamp_2:ABuf\ (fixed)
 OpAmp[1]@[FFB(OpAmp,1)] : \Opamp_1:ABuf\ (fixed)
 OpAmp[0]@[FFB(OpAmp,0)] : \Opamp_0:ABuf\ (fixed)
-Comparator[3]@[FFB(Comparator,3)] : \Comp_0:ctComp\
-Comparator[0]@[FFB(Comparator,0)] : \Comp_1:ctComp\
+DSM[0]@[FFB(DSM,0)] : \ADC_DelSig_1:DSM\
+Vref[6]@[FFB(Vref,6)] : \ADC_DelSig_1:vRef_2\
+Comparator[1]@[FFB(Comparator,1)] : \Comp_0:ctComp\
+Comparator[3]@[FFB(Comparator,3)] : \Comp_1:ctComp\
 Comparator[2]@[FFB(Comparator,2)] : \Comp_2:ctComp\
-Comparator[1]@[FFB(Comparator,1)] : \Comp_3:ctComp\
-SC[0]@[FFB(SC,0)] : \Sample_Hold_0:SC\
-SC[1]@[FFB(SC,1)] : \Sample_Hold_1:SC\
-SC[2]@[FFB(SC,2)] : \Sample_Hold_2:SC\
-SC[3]@[FFB(SC,3)] : \Sample_Hold_3:SC\
+Comparator[0]@[FFB(Comparator,0)] : \Comp_3:ctComp\
+SC[3]@[FFB(SC,3)] : \Sample_Hold_0:SC\
+SC[0]@[FFB(SC,0)] : \Sample_Hold_1:SC\
+SC[1]@[FFB(SC,1)] : \Sample_Hold_2:SC\
+SC[2]@[FFB(SC,2)] : \Sample_Hold_3:SC\
 USB[0]@[FFB(USB,0)] : \USBFS:USB\
 Vref[1]@[FFB(Vref,1)] : vRef_1
-Log: apr.M0058: The analog placement iterative improvement is 41% done. (App=cydsfit)
-Log: apr.M0058: The analog placement iterative improvement is 63% done. (App=cydsfit)
-Log: apr.M0058: The analog placement iterative improvement is 89% done. (App=cydsfit)
+Log: apr.M0058: The analog placement iterative improvement is 45% done. (App=cydsfit)
+Log: apr.M0058: The analog placement iterative improvement is 65% done. (App=cydsfit)
+Log: apr.M0058: The analog placement iterative improvement is 87% done. (App=cydsfit)
 Analog Placement Results:
 IO_7@[IOP=(0)][IoId=(7)] : C0o(0) (fixed)
 IO_5@[IOP=(3)][IoId=(5)] : C1o(0) (fixed)
@@ -3913,55 +3953,73 @@ OpAmp[3]@[FFB(OpAmp,3)] : \Opamp_3:ABuf\ (fixed)
 OpAmp[2]@[FFB(OpAmp,2)] : \Opamp_2:ABuf\ (fixed)
 OpAmp[1]@[FFB(OpAmp,1)] : \Opamp_1:ABuf\ (fixed)
 OpAmp[0]@[FFB(OpAmp,0)] : \Opamp_0:ABuf\ (fixed)
-Comparator[0]@[FFB(Comparator,0)] : \Comp_0:ctComp\
-Comparator[3]@[FFB(Comparator,3)] : \Comp_1:ctComp\
-Comparator[1]@[FFB(Comparator,1)] : \Comp_2:ctComp\
-Comparator[2]@[FFB(Comparator,2)] : \Comp_3:ctComp\
-SC[0]@[FFB(SC,0)] : \Sample_Hold_0:SC\
-SC[3]@[FFB(SC,3)] : \Sample_Hold_1:SC\
-SC[1]@[FFB(SC,1)] : \Sample_Hold_2:SC\
-SC[2]@[FFB(SC,2)] : \Sample_Hold_3:SC\
+DSM[0]@[FFB(DSM,0)] : \ADC_DelSig_1:DSM\
+Vref[6]@[FFB(Vref,6)] : \ADC_DelSig_1:vRef_2\
+Comparator[3]@[FFB(Comparator,3)] : \Comp_0:ctComp\
+Comparator[2]@[FFB(Comparator,2)] : \Comp_1:ctComp\
+Comparator[0]@[FFB(Comparator,0)] : \Comp_2:ctComp\
+Comparator[1]@[FFB(Comparator,1)] : \Comp_3:ctComp\
+SC[3]@[FFB(SC,3)] : \Sample_Hold_0:SC\
+SC[0]@[FFB(SC,0)] : \Sample_Hold_1:SC\
+SC[2]@[FFB(SC,2)] : \Sample_Hold_2:SC\
+SC[1]@[FFB(SC,1)] : \Sample_Hold_3:SC\
 USB[0]@[FFB(USB,0)] : \USBFS:USB\
 Vref[1]@[FFB(Vref,1)] : vRef_1
 
-Analog Placement phase: Elapsed time ==> 12s.124ms
+Analog Placement phase: Elapsed time ==> 13s.141ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Routing">
-Net "u0o" overuses wire "AGR[5]"
-Net "u1o" overuses wire "sc1 out Wire"
 Net "u1o" overuses wire "AGR[5]"
+Net "u1o" overuses wire "AGR[6]"
+Net "u3o" overuses wire "AGL[7]"
+Net "u3o" overuses wire "AGL2AGR[7] Sw__0b"
 Net "u3o" overuses wire "AGR[7]"
-Net "u0i" overuses wire "AGL[7]"
-Net "u0i" overuses wire "AGL[7]"
-Net "u1i" overuses wire "AGR[6]"
-Net "u1i" overuses wire "AGR[6]"
-Net "u2i" overuses wire "sc1 out Wire"
-Net "u2i" overuses wire "AGR[7]"
-Net "u2i" overuses wire "AGL[7]"
-Net "u2i" overuses wire "AGR[7]"
-Net "u3i" overuses wire "AGR[6]"
+Net "u0i" overuses wire "AGR[6]"
+Net "u0i" overuses wire "AGL[6]"
+Net "u0i" overuses wire "AGR[6]"
+Net "u1i" overuses wire "AGL[7]"
+Net "u1i" overuses wire "AGL2AGR[7] Sw__0b"
+Net "u1i" overuses wire "AGR[7]"
+Net "u1i" overuses wire "AGL[7]"
+Net "u2i" overuses wire "AGL[6]"
+Net "u2i" overuses wire "AGL[6]"
+Net "u3i" overuses wire "AGR[5]"
+Net "u3i" overuses wire "AGR[5]"
+Net "u2o" overuses wire "AGR[4]"
+Net "u2o" overuses wire "AGL2AGR[4] Sw__0b"
+Net "u2o" overuses wire "AGL[4]"
+Net "u0i" overuses wire "AGR[4]"
+Net "u0i" overuses wire "AGL2AGR[4] Sw__0b"
+Net "u0i" overuses wire "AGL[4]"
+Net "u0i" overuses wire "AGR[4]"
 Net "u0o" overuses wire "AGL[5]"
-Net "u3o" overuses wire "AGR[4]"
-Net "u0i" overuses wire "AGL[5]"
-Net "u0i" overuses wire "AGL[5]"
-Net "u1i" overuses wire "AGR[4]"
-Net "u1i" overuses wire "AGR[4]"
-Analog Routing phase: Elapsed time ==> 0s.218ms
+Net "u2o" overuses wire "sc0 out Wire"
+Net "u2o" overuses wire "AGL[5]"
+Net "u1i" overuses wire "sc0 out Wire"
+Net "u2o" overuses wire "AGR[4]"
+Net "u0i" overuses wire "AGR[4]"
+Analog Routing phase: Elapsed time ==> 0s.231ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Analog Code Generation">
 ============ Analog Final Answer Routes ============
 Dump of CyAnalogRoutingResultsDB
 Map of net to items {
+  Net: \ADC_DelSig_1:Net_520\ {
+    dsm_0_vminus
+  }
+  Net: \ADC_DelSig_1:Net_244\ {
+    common_vssa
+  }
+  Net: \ADC_DelSig_1:Net_690\ {
+  }
   Net: \Opamp_0:Net_29\ {
     opamp_0_vminus
     opamp_0_vminus_x_p0_3
     p0_3
   }
   Net: u0o {
-    sc_3_vin
-    agr5_x_sc_3_vin
-    agr5
-    agl5_x_agr5
+    sc_0_vin
+    agl5_x_sc_0_vin
     agl5
     agl5_x_p0_1
     p0_1
@@ -3972,15 +4030,15 @@ Map of net to items {
     p3_4
   }
   Net: u1o {
-    sc_0_vin
-    amuxbusl_x_sc_0_vin
-    amuxbusl
-    amuxbusl_x_amuxbusr
-    amuxbusr
-    amuxbusr_x_p3_6
-    p3_6
-    amuxbusr_x_p3_1
+    sc_3_vin
+    agr5_x_sc_3_vin
+    agr5
+    agr5_x_p3_1
     p3_1
+    agr6_x_sc_3_vin
+    agr6
+    agr6_x_p3_6
+    p3_6
   }
   Net: \Opamp_2:Net_29\ {
     opamp_2_vminus
@@ -3988,8 +4046,10 @@ Map of net to items {
     p0_5
   }
   Net: u2o {
-    sc_2_vin
-    agl4_x_sc_2_vin
+    sc_1_vin
+    agr4_x_sc_1_vin
+    agr4
+    agl4_x_agr4
     agl4
     agl4_x_p0_0
     p0_0
@@ -4000,72 +4060,86 @@ Map of net to items {
     p3_2
   }
   Net: u3o {
-    sc_1_vin
-    agr4_x_sc_1_vin
-    agr4
-    agr4_x_p3_0
-    p3_0
-    agr7_x_sc_1_vin
-    agr7
-    agr7_x_p3_7
+    sc_2_vin
+    amuxbusl_x_sc_2_vin
+    amuxbusl
+    amuxbusl_x_amuxbusr
+    amuxbusr
+    amuxbusr_x_p3_7
     p3_7
-  }
-  Net: u0i {
-    sc_0_vout
-    agl1_x_sc_0_vout
-    agl1
-    agl1_x_comp_0_vplus
-    comp_0_vplus
-    agl7_x_sc_0_vout
-    agl7
-    agl7_x_opamp_0_vplus
-    opamp_0_vplus
+    amuxbusr_x_p3_0
+    p3_0
   }
   Net: vdda2 {
     common_Vdda/2
     common_Vdda/2_x_comp_vref_vdda
     comp_vref_vdda
+    abusl0_x_comp_vref_vdda
+    abusl0
+    abusl0_x_dsm_0_vplus
+    dsm_0_vplus
     comp_vref_vdda_x_comp_vref_vdda_0256
     comp_vref_vdda_0256
+    comp_2_vminus_x_comp_vref_vdda_0256
+    comp_2_vminus
+    comp_0_vminus_x_comp_vref_vdda_0256
+    comp_0_vminus
     comp_1_vminus_x_comp_vref_vdda_0256
     comp_1_vminus
     comp_3_vminus_x_comp_vref_vdda_0256
     comp_3_vminus
-    comp_0_vminus_x_comp_vref_vdda_0256
-    comp_0_vminus
-    comp_2_vminus_x_comp_vref_vdda_0256
-    comp_2_vminus
   }
-  Net: u1i {
+  Net: \ADC_DelSig_1:Net_573\ {
+  }
+  Net: \ADC_DelSig_1:Net_41\ {
+  }
+  Net: \ADC_DelSig_1:Net_109\ {
+  }
+  Net: \ADC_DelSig_1:Net_677\ {
+  }
+  Net: u0i {
     sc_3_vout
-    abusr0_x_sc_3_vout
-    abusr0
-    abusr0_x_opamp_1_vplus
-    opamp_1_vplus
-    abusr0_x_comp_3_vplus
+    abusr2_x_sc_3_vout
+    abusr2
+    abusl2_x_abusr2
+    abusl2
+    abusl2_x_opamp_0_vplus
+    opamp_0_vplus
+    agr0_x_sc_3_vout
+    agr0
+    agr0_x_comp_3_vplus
     comp_3_vplus
   }
-  Net: u2i {
-    sc_1_vout
-    abusr1_x_sc_1_vout
-    abusr1
-    abusl1_x_abusr1
-    abusl1
-    abusl1_x_opamp_2_vplus
-    opamp_2_vplus
-    abusr1_x_comp_1_vplus
-    comp_1_vplus
+  Net: u1i {
+    sc_0_vout
+    agl7_x_sc_0_vout
+    agl7
+    agl7_x_agr7
+    agr7
+    agr7_x_opamp_1_vplus
+    opamp_1_vplus
+    agl7_x_comp_2_vplus
+    comp_2_vplus
   }
-  Net: u3i {
+  Net: u2i {
     sc_2_vout
     agl6_x_sc_2_vout
     agl6
-    agl6_x_agr6
-    agr6
-    agr6_x_opamp_3_vplus
+    agl6_x_opamp_2_vplus
+    opamp_2_vplus
+    agl6_x_comp_0_vplus
+    comp_0_vplus
+  }
+  Net: u3i {
+    sc_1_vout
+    abusr3_x_sc_1_vout
+    abusr3
+    abusr3_x_opamp_3_vplus
     opamp_3_vplus
-    agl6_x_comp_2_vplus
-    comp_2_vplus
+    agr3_x_sc_1_vout
+    agr3
+    agr3_x_comp_1_vplus
+    comp_1_vplus
   }
   Net: \Sample_Hold_0:Net_105\ {
   }
@@ -4075,109 +4149,150 @@ Map of net to items {
   }
   Net: \Sample_Hold_3:Net_105\ {
   }
+  Net: AmuxNet::\ADC_DelSig_1:AMux\ {
+    dsm_0_vminus
+    dsm_0_vminus_x_dsm_0_vminus_vssa
+    dsm_0_vminus_vssa
+    common_vssa
+  }
 }
 Map of item to net {
   opamp_0_vminus                                   -> \Opamp_0:Net_29\
   opamp_0_vminus_x_p0_3                            -> \Opamp_0:Net_29\
   p0_3                                             -> \Opamp_0:Net_29\
-  sc_3_vin                                         -> u0o
-  agr5_x_sc_3_vin                                  -> u0o
-  agr5                                             -> u0o
-  agl5_x_agr5                                      -> u0o
+  sc_0_vin                                         -> u0o
+  agl5_x_sc_0_vin                                  -> u0o
   agl5                                             -> u0o
   agl5_x_p0_1                                      -> u0o
   p0_1                                             -> u0o
   opamp_1_vminus                                   -> \Opamp_1:Net_29\
   opamp_1_vminus_x_p3_4                            -> \Opamp_1:Net_29\
   p3_4                                             -> \Opamp_1:Net_29\
-  sc_0_vin                                         -> u1o
-  amuxbusl_x_sc_0_vin                              -> u1o
-  amuxbusl                                         -> u1o
-  amuxbusl_x_amuxbusr                              -> u1o
-  amuxbusr                                         -> u1o
-  amuxbusr_x_p3_6                                  -> u1o
-  p3_6                                             -> u1o
-  amuxbusr_x_p3_1                                  -> u1o
+  sc_3_vin                                         -> u1o
+  agr5_x_sc_3_vin                                  -> u1o
+  agr5                                             -> u1o
+  agr5_x_p3_1                                      -> u1o
   p3_1                                             -> u1o
+  agr6_x_sc_3_vin                                  -> u1o
+  agr6                                             -> u1o
+  agr6_x_p3_6                                      -> u1o
+  p3_6                                             -> u1o
   opamp_2_vminus                                   -> \Opamp_2:Net_29\
   opamp_2_vminus_x_p0_5                            -> \Opamp_2:Net_29\
   p0_5                                             -> \Opamp_2:Net_29\
-  sc_2_vin                                         -> u2o
-  agl4_x_sc_2_vin                                  -> u2o
+  sc_1_vin                                         -> u2o
+  agr4_x_sc_1_vin                                  -> u2o
+  agr4                                             -> u2o
+  agl4_x_agr4                                      -> u2o
   agl4                                             -> u2o
   agl4_x_p0_0                                      -> u2o
   p0_0                                             -> u2o
   opamp_3_vminus                                   -> \Opamp_3:Net_29\
   opamp_3_vminus_x_p3_2                            -> \Opamp_3:Net_29\
   p3_2                                             -> \Opamp_3:Net_29\
-  sc_1_vin                                         -> u3o
-  agr4_x_sc_1_vin                                  -> u3o
-  agr4                                             -> u3o
-  agr4_x_p3_0                                      -> u3o
-  p3_0                                             -> u3o
-  agr7_x_sc_1_vin                                  -> u3o
-  agr7                                             -> u3o
-  agr7_x_p3_7                                      -> u3o
+  sc_2_vin                                         -> u3o
+  amuxbusl_x_sc_2_vin                              -> u3o
+  amuxbusl                                         -> u3o
+  amuxbusl_x_amuxbusr                              -> u3o
+  amuxbusr                                         -> u3o
+  amuxbusr_x_p3_7                                  -> u3o
   p3_7                                             -> u3o
-  sc_0_vout                                        -> u0i
-  agl1_x_sc_0_vout                                 -> u0i
-  agl1                                             -> u0i
-  agl1_x_comp_0_vplus                              -> u0i
-  comp_0_vplus                                     -> u0i
-  agl7_x_sc_0_vout                                 -> u0i
-  agl7                                             -> u0i
-  agl7_x_opamp_0_vplus                             -> u0i
-  opamp_0_vplus                                    -> u0i
+  amuxbusr_x_p3_0                                  -> u3o
+  p3_0                                             -> u3o
   common_Vdda/2                                    -> vdda2
   common_Vdda/2_x_comp_vref_vdda                   -> vdda2
   comp_vref_vdda                                   -> vdda2
+  abusl0_x_comp_vref_vdda                          -> vdda2
+  abusl0                                           -> vdda2
+  abusl0_x_dsm_0_vplus                             -> vdda2
+  dsm_0_vplus                                      -> vdda2
   comp_vref_vdda_x_comp_vref_vdda_0256             -> vdda2
   comp_vref_vdda_0256                              -> vdda2
+  comp_2_vminus_x_comp_vref_vdda_0256              -> vdda2
+  comp_2_vminus                                    -> vdda2
+  comp_0_vminus_x_comp_vref_vdda_0256              -> vdda2
+  comp_0_vminus                                    -> vdda2
   comp_1_vminus_x_comp_vref_vdda_0256              -> vdda2
   comp_1_vminus                                    -> vdda2
   comp_3_vminus_x_comp_vref_vdda_0256              -> vdda2
   comp_3_vminus                                    -> vdda2
-  comp_0_vminus_x_comp_vref_vdda_0256              -> vdda2
-  comp_0_vminus                                    -> vdda2
-  comp_2_vminus_x_comp_vref_vdda_0256              -> vdda2
-  comp_2_vminus                                    -> vdda2
-  sc_3_vout                                        -> u1i
-  abusr0_x_sc_3_vout                               -> u1i
-  abusr0                                           -> u1i
-  abusr0_x_opamp_1_vplus                           -> u1i
+  sc_3_vout                                        -> u0i
+  abusr2_x_sc_3_vout                               -> u0i
+  abusr2                                           -> u0i
+  abusl2_x_abusr2                                  -> u0i
+  abusl2                                           -> u0i
+  abusl2_x_opamp_0_vplus                           -> u0i
+  opamp_0_vplus                                    -> u0i
+  agr0_x_sc_3_vout                                 -> u0i
+  agr0                                             -> u0i
+  agr0_x_comp_3_vplus                              -> u0i
+  comp_3_vplus                                     -> u0i
+  sc_0_vout                                        -> u1i
+  agl7_x_sc_0_vout                                 -> u1i
+  agl7                                             -> u1i
+  agl7_x_agr7                                      -> u1i
+  agr7                                             -> u1i
+  agr7_x_opamp_1_vplus                             -> u1i
   opamp_1_vplus                                    -> u1i
-  abusr0_x_comp_3_vplus                            -> u1i
-  comp_3_vplus                                     -> u1i
-  sc_1_vout                                        -> u2i
-  abusr1_x_sc_1_vout                               -> u2i
-  abusr1                                           -> u2i
-  abusl1_x_abusr1                                  -> u2i
-  abusl1                                           -> u2i
-  abusl1_x_opamp_2_vplus                           -> u2i
+  agl7_x_comp_2_vplus                              -> u1i
+  comp_2_vplus                                     -> u1i
+  sc_2_vout                                        -> u2i
+  agl6_x_sc_2_vout                                 -> u2i
+  agl6                                             -> u2i
+  agl6_x_opamp_2_vplus                             -> u2i
   opamp_2_vplus                                    -> u2i
-  abusr1_x_comp_1_vplus                            -> u2i
-  comp_1_vplus                                     -> u2i
-  sc_2_vout                                        -> u3i
-  agl6_x_sc_2_vout                                 -> u3i
-  agl6                                             -> u3i
-  agl6_x_agr6                                      -> u3i
-  agr6                                             -> u3i
-  agr6_x_opamp_3_vplus                             -> u3i
+  agl6_x_comp_0_vplus                              -> u2i
+  comp_0_vplus                                     -> u2i
+  sc_1_vout                                        -> u3i
+  abusr3_x_sc_1_vout                               -> u3i
+  abusr3                                           -> u3i
+  abusr3_x_opamp_3_vplus                           -> u3i
   opamp_3_vplus                                    -> u3i
-  agl6_x_comp_2_vplus                              -> u3i
-  comp_2_vplus                                     -> u3i
+  agr3_x_sc_1_vout                                 -> u3i
+  agr3                                             -> u3i
+  agr3_x_comp_1_vplus                              -> u3i
+  comp_1_vplus                                     -> u3i
+  dsm_0_vminus                                     -> \ADC_DelSig_1:Net_520\
+  common_vssa                                      -> \ADC_DelSig_1:Net_244\
+  dsm_0_vminus_x_dsm_0_vminus_vssa                 -> AmuxNet::\ADC_DelSig_1:AMux\
+  dsm_0_vminus_vssa                                -> AmuxNet::\ADC_DelSig_1:AMux\
 }
 Mux Info {
+  Mux: \ADC_DelSig_1:AMux\ {
+     Mouth: \ADC_DelSig_1:Net_520\
+     Guts:  AmuxNet::\ADC_DelSig_1:AMux\
+     IsSingleSwitching: False
+     IsStaticSwitching: True
+     IsAtMostOneSwitch: False
+    Arm: 0 {
+      Net:   \ADC_DelSig_1:Net_244\
+      Outer: dsm_0_vminus_x_dsm_0_vminus_vssa
+      Inner: __open__
+      Path {
+        common_vssa
+        dsm_0_vminus_vssa
+        dsm_0_vminus_x_dsm_0_vminus_vssa
+        dsm_0_vminus
+      }
+    }
+    Arm: 1 {
+      Net:   \ADC_DelSig_1:Net_690\
+      Outer: __open__
+      Inner: __open__
+      Path {
+      }
+    }
+  }
 }
 Dump of CyP35AnalogRoutingResultsDB
 IsVddaHalfUsedForComp = True
 IsVddaHalfUsedForSar0 = False
 IsVddaHalfUsedForSar1 = False
-Analog Code Generation phase: Elapsed time ==> 0s.795ms
+Analog Code Generation phase: Elapsed time ==> 1s.076ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Placement">
 <CYPRESSTAG name="Detailed placement messages">
-I2076: Total run-time: 4.3 sec.
+I2076: Total run-time: 3.8 sec.
 
 </CYPRESSTAG>
 <CYPRESSTAG name="PLD Packing">
@@ -4194,27 +4309,27 @@ PLD Packing Summary
 
         PLD Resource Type :     Average/LAB
     =======================================
-                   Inputs :            7.61
-                   Pterms :            5.39
-               Macrocells :            2.89
+                   Inputs :            7.78
+                   Pterms :            5.44
+               Macrocells :            2.94
 </CYPRESSTAG>
 <CYPRESSTAG name="Packed PLD Contents">
 Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
 </CYPRESSTAG>
-PLD Packing: Elapsed time ==> 0s.000ms
+PLD Packing: Elapsed time ==> 0s.003ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Partitioning">
 <CYPRESSTAG name="Initial Partitioning Summary">
 Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
 <CYPRESSTAG name="Final Partitioning Summary">
 Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
-Partitioning: Elapsed time ==> 0s.279ms
+Partitioning: Elapsed time ==> 0s.236ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Simulated Annealing">
-Annealing: Elapsed time ==> 0s.010ms
+Annealing: Elapsed time ==> 0s.004ms
 <CYPRESSTAG name="Simulated Annealing Results">
 The seed used for moves was 114161200.
-Inital cost was 793, final cost is 793 (0.00% improvement).</CYPRESSTAG>
+Inital cost was 759, final cost is 759 (0.00% improvement).</CYPRESSTAG>
 </CYPRESSTAG>
 <CYPRESSTAG name="Final Placement Summary">
 
@@ -4224,7 +4339,7 @@ Final Placement Summary
 
        Resource Type :      Count : Avg Inputs : Avg Outputs
     ========================================================
-                 UDB :         10 :      10.60 :       5.20
+                 UDB :         10 :      10.50 :       5.30
 <CYPRESSTAG name="Final Placement Details">
 <CYPRESSTAG name="Component Details">
 
@@ -4232,65 +4347,148 @@ Final Placement Summary
 Component Placement Details
 ------------------------------------------------------------
 UDB [UDB=(0,1)] contents:
-LAB@[UDB=(0,1)][LB=0] #macrocells=2, #inputs=7, #pterms=8
+LAB@[UDB=(0,1)][LB=0] #macrocells=3, #inputs=9, #pterms=7
 {
-    [McSlotId=0]:     MacroCell: Name=\AudioClkGen:UDB_ACG:sync:addr_0\, Mode=(D-Register) @ [UDB=(0,1)][LB=0][MC=0]
-        Total # of inputs        : 7
-        Total # of product terms : 7
+    [McSlotId=0]:     MacroCell: Name=\AudioClkGen:UDB_ACG:shaper:state_0\, Mode=(D-Register) @ [UDB=(0,1)][LB=0][MC=0]
+        Total # of inputs        : 5
+        Total # of product terms : 3
         List of special equations: 
             Clock  = (Net_3093) => Global
             Clock Enable: True
-        Main Equation            : 7 pterms
-        !(
-              !Net_3097 * !\AudioClkGen:UDB_ACG:sync:addr_2\ * 
-              !\AudioClkGen:UDB_ACG:sync:addr_1\ * 
-              !\AudioClkGen:UDB_ACG:sync:addr_0\
-            + Net_3097 * \AudioClkGen:UDB_ACG:sync:addr_2\ * 
-              \AudioClkGen:UDB_ACG:sync:addr_1\ * 
-              !\AudioClkGen:UDB_ACG:sync:lastSof\ * 
-              !\AudioClkGen:UDB_ACG:sync:state_3\
-            + !\AudioClkGen:UDB_ACG:sync:addr_2\ * 
-              !\AudioClkGen:UDB_ACG:sync:addr_1\ * 
-              !\AudioClkGen:UDB_ACG:sync:addr_0\ * 
-              \AudioClkGen:UDB_ACG:sync:lastSof\
-            + !\AudioClkGen:UDB_ACG:sync:addr_2\ * 
-              !\AudioClkGen:UDB_ACG:sync:addr_1\ * 
-              !\AudioClkGen:UDB_ACG:sync:addr_0\ * 
-              \AudioClkGen:UDB_ACG:sync:state_3\
-            + !\AudioClkGen:UDB_ACG:sync:addr_2\ * 
-              \AudioClkGen:UDB_ACG:sync:addr_0\ * 
-              !\AudioClkGen:UDB_ACG:sync:state_3\ * 
-              \AudioClkGen:UDB_ACG:sync:counterZ0\
-            + \AudioClkGen:UDB_ACG:sync:addr_2\ * 
-              \AudioClkGen:UDB_ACG:sync:addr_1\ * 
-              !\AudioClkGen:UDB_ACG:sync:addr_0\ * 
-              !\AudioClkGen:UDB_ACG:sync:state_3\
-            + !\AudioClkGen:UDB_ACG:sync:addr_1\ * 
-              \AudioClkGen:UDB_ACG:sync:addr_0\ * 
-              !\AudioClkGen:UDB_ACG:sync:state_3\
+        Main Equation            : 3 pterms
+        (
+              !\AudioClkGen:UDB_ACG:shaper:state_2\ * 
+              !\AudioClkGen:UDB_ACG:shaper:state_1\ * 
+              \AudioClkGen:UDB_ACG:shaper:state_0\ * 
+              \AudioClkGen:UDB_ACG:shaper:cl0_1\
+            + !\AudioClkGen:UDB_ACG:shaper:state_2\ * 
+              \AudioClkGen:UDB_ACG:shaper:state_1\ * 
+              !\AudioClkGen:UDB_ACG:shaper:state_0\
+            + !\AudioClkGen:UDB_ACG:shaper:state_2\ * 
+              !\AudioClkGen:UDB_ACG:shaper:state_0\ * 
+              \AudioClkGen:UDB_ACG:trigger_shaper\
         );
-        Output = \AudioClkGen:UDB_ACG:sync:addr_0\ (fanout=11)
+        Output = \AudioClkGen:UDB_ACG:shaper:state_0\ (fanout=7)
         Properties               : 
         {
         }
 
     [McSlotId=1]: (empty)
-    [McSlotId=2]:     MacroCell: Name=\AudioClkGen:UDB_ACG:sync:lastSof\, Mode=(D-Register) @ [UDB=(0,1)][LB=0][MC=2]
-        Total # of inputs        : 1
+    [McSlotId=2]:     MacroCell: Name=\AudioClkGen:UDB_ACG:div:deltaReg\, Mode=(T-Register) @ [UDB=(0,1)][LB=0][MC=2]
+        Total # of inputs        : 5
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_3093) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              \AudioClkGen:UDB_ACG:trigger_shaper\ * 
+              !\AudioClkGen:UDB_ACG:delta\ * 
+              \AudioClkGen:UDB_ACG:div:state_1\ * 
+              \AudioClkGen:UDB_ACG:div:state_0\ * 
+              \AudioClkGen:UDB_ACG:div:deltaReg\
+            + \AudioClkGen:UDB_ACG:trigger_shaper\ * 
+              \AudioClkGen:UDB_ACG:delta\ * \AudioClkGen:UDB_ACG:div:state_1\ * 
+              \AudioClkGen:UDB_ACG:div:state_0\ * 
+              !\AudioClkGen:UDB_ACG:div:deltaReg\
+        );
+        Output = \AudioClkGen:UDB_ACG:div:deltaReg\ (fanout=3)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\AudioClkGen:UDB_ACG:div:state_1\, Mode=(D-Register) @ [UDB=(0,1)][LB=0][MC=3]
+        Total # of inputs        : 4
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_3093) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        !(
+              \AudioClkGen:UDB_ACG:trigger_shaper\ * 
+              \AudioClkGen:UDB_ACG:div:state_1\ * 
+              \AudioClkGen:UDB_ACG:div:state_0\
+            + !\AudioClkGen:UDB_ACG:div:state_1\ * 
+              !\AudioClkGen:UDB_ACG:div:state_0\ * 
+              \AudioClkGen:UDB_ACG:div:deltaReg\
+        );
+        Output = \AudioClkGen:UDB_ACG:div:state_1\ (fanout=5)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(0,1)][LB=1] #macrocells=3, #inputs=11, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=\AudioClkGen:UDB_ACG:shaper:state_2\, Mode=(T-Register) @ [UDB=(0,1)][LB=1][MC=0]
+        Total # of inputs        : 9
+        Total # of product terms : 4
+        List of special equations: 
+            Clock  = (Net_3093) => Global
+            Clock Enable: True
+        Main Equation            : 4 pterms
+        (
+              \AudioClkGen:UDB_ACG:sync:addr_2\ * 
+              \AudioClkGen:UDB_ACG:sync:addr_1\ * 
+              !\AudioClkGen:UDB_ACG:sync:addr_0\ * 
+              !\AudioClkGen:UDB_ACG:sync:state_3\ * 
+              \AudioClkGen:UDB_ACG:sync:counterZ1\ * 
+              \AudioClkGen:UDB_ACG:shaper:state_2\
+            + \AudioClkGen:UDB_ACG:sync_ready\ * 
+              \AudioClkGen:UDB_ACG:shaper:state_1\ * 
+              \AudioClkGen:UDB_ACG:shaper:state_0\
+            + \AudioClkGen:UDB_ACG:shaper:state_2\ * 
+              \AudioClkGen:UDB_ACG:shaper:state_1\
+            + \AudioClkGen:UDB_ACG:shaper:state_2\ * 
+              \AudioClkGen:UDB_ACG:shaper:state_0\
+        );
+        Output = \AudioClkGen:UDB_ACG:shaper:state_2\ (fanout=7)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\AudioClkGen:UDB_ACG:delta\, Mode=(T-Register) @ [UDB=(0,1)][LB=1][MC=1]
+        Total # of inputs        : 5
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_3093) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !\AudioClkGen:UDB_ACG:shaper:state_2\ * 
+              !\AudioClkGen:UDB_ACG:shaper:state_1\ * 
+              \AudioClkGen:UDB_ACG:shaper:state_0\ * 
+              !\AudioClkGen:UDB_ACG:shaper:cl0_1\ * 
+              !\AudioClkGen:UDB_ACG:delta\
+            + !\AudioClkGen:UDB_ACG:shaper:state_2\ * 
+              !\AudioClkGen:UDB_ACG:shaper:state_1\ * 
+              \AudioClkGen:UDB_ACG:shaper:state_0\ * 
+              \AudioClkGen:UDB_ACG:shaper:cl0_1\ * 
+              \AudioClkGen:UDB_ACG:delta\
+        );
+        Output = \AudioClkGen:UDB_ACG:delta\ (fanout=2)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]:     MacroCell: Name=\AudioClkGen:UDB_ACG:transfer\, Mode=(D-Register) @ [UDB=(0,1)][LB=1][MC=3]
+        Total # of inputs        : 4
         Total # of product terms : 1
         List of special equations: 
             Clock  = (Net_3093) => Global
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_3097
+              \AudioClkGen:UDB_ACG:sync_ready\ * 
+              !\AudioClkGen:UDB_ACG:shaper:state_2\ * 
+              \AudioClkGen:UDB_ACG:shaper:state_1\ * 
+              \AudioClkGen:UDB_ACG:shaper:state_0\
         );
-        Output = \AudioClkGen:UDB_ACG:sync:lastSof\ (fanout=3)
+        Output = \AudioClkGen:UDB_ACG:transfer\ (fanout=3)
         Properties               : 
         {
         }
-
-    [McSlotId=3]: (empty)
 }
 
 datapathcell: Name =\AudioClkGen:UDB_ACG:shaper:Div:u1\
@@ -4330,69 +4528,8 @@ datapathcell: Name =\AudioClkGen:UDB_ACG:shaper:Div:u1\
     Clock Enable: True
     Previous in chain : \AudioClkGen:UDB_ACG:shaper:Div:u0\
 
-controlcell: Name =\Clock_CIC_Running:Sync:ctrl_reg\
-    PORT MAP (
-        control_7 => \Clock_CIC_Running:control_7\ ,
-        control_6 => \Clock_CIC_Running:control_6\ ,
-        control_5 => \Clock_CIC_Running:control_5\ ,
-        control_4 => \Clock_CIC_Running:control_4\ ,
-        control_3 => \Clock_CIC_Running:control_3\ ,
-        control_2 => \Clock_CIC_Running:control_2\ ,
-        control_1 => \Clock_CIC_Running:control_1\ ,
-        control_0 => Net_4299 );
-    Properties:
-    {
-        cy_ctrl_mode_0 = "00000000"
-        cy_ctrl_mode_1 = "00000000"
-        cy_ext_reset = 0
-        cy_force_order = 1
-        cy_init_value = "00000000"
-    }
-    Clock Enable: True
-
-synccell: Name =\USBFS:nrqSync:genblk1[1]:INST\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        in => \USBFS:dma_nrq_1\ ,
-        out => \USBFS:dma_nrq_sync_1\ );
-    Properties:
-    {
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-synccell: Name =\USBFS:nrqSync:genblk1[0]:INST\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        out => \USBFS:dma_nrq_sync_0\ );
-    Properties:
-    {
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-synccell: Name =\USBFS:nrqSync:genblk1[2]:INST\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        out => \USBFS:dma_nrq_sync_2\ );
-    Properties:
-    {
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-synccell: Name =\USBFS:nrqSync:genblk1[4]:INST\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        out => \USBFS:dma_nrq_sync_4\ );
-    Properties:
-    {
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
 UDB [UDB=(0,2)] contents:
-LAB@[UDB=(0,2)][LB=0] #macrocells=2, #inputs=9, #pterms=8
+LAB@[UDB=(0,2)][LB=0] #macrocells=2, #inputs=12, #pterms=7
 {
     [McSlotId=0]:     MacroCell: Name=\AudioClkGen:UDB_ACG:sync:addr_1\, Mode=(D-Register) @ [UDB=(0,2)][LB=0][MC=0]
         Total # of inputs        : 9
@@ -4433,22 +4570,15 @@ LAB@[UDB=(0,2)][LB=0] #macrocells=2, #inputs=9, #pterms=8
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=\AudioClkGen:UDB_ACG:sync:counterAddr_0\, Mode=(Combinatorial) @ [UDB=(0,2)][LB=0][MC=1]
-        Total # of inputs        : 4
-        Total # of product terms : 2
+    [McSlotId=1]:     MacroCell: Name=Net_4290, Mode=(Combinatorial) @ [UDB=(0,2)][LB=0][MC=1]
+        Total # of inputs        : 3
+        Total # of product terms : 1
             Clock Enable: True
-        Main Equation            : 2 pterms
-        (
-              !\AudioClkGen:UDB_ACG:sync:addr_2\ * 
-              \AudioClkGen:UDB_ACG:sync:addr_1\ * 
-              !\AudioClkGen:UDB_ACG:sync:addr_0\ * 
-              !\AudioClkGen:UDB_ACG:sync:state_3\
-            + \AudioClkGen:UDB_ACG:sync:addr_2\ * 
-              !\AudioClkGen:UDB_ACG:sync:addr_1\ * 
-              \AudioClkGen:UDB_ACG:sync:addr_0\ * 
-              !\AudioClkGen:UDB_ACG:sync:state_3\
+        Main Equation            : 1 pterm
+        !(
+              cydff_2 * Net_4350 * Net_4299
         );
-        Output = \AudioClkGen:UDB_ACG:sync:counterAddr_0\ (fanout=1)
+        Output = Net_4290 (fanout=1)
         Properties               : 
         {
         }
@@ -4457,23 +4587,86 @@ LAB@[UDB=(0,2)][LB=0] #macrocells=2, #inputs=9, #pterms=8
     [McSlotId=3]: (empty)
 }
 
-statusicell: Name =\USBFS:EP8_DMA_Done_SR:sts_intr:sts_reg\
+LAB@[UDB=(0,2)][LB=1] #macrocells=1, #inputs=0, #pterms=0
+{
+    [McSlotId=0]: (empty)
+    [McSlotId=1]:     MacroCell: Name=Net_183, Mode=(T-Register) @ [UDB=(0,2)][LB=1][MC=1]
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (Net_4258) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        !(
+            0
+        );
+        Output = Net_183 (fanout=5)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+datapathcell: Name =\AudioClkGen:UDB_ACG:sync:SofCounter:u1\
     PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        status_1 => \USBFS:dma_nrq_sync_7\ ,
-        status_0 => \USBFS:Net_1768\ ,
-        interrupt => \USBFS:Net_1522\ );
+        clock => Net_3093 ,
+        cs_addr_2 => \AudioClkGen:UDB_ACG:sync:addr_2\ ,
+        cs_addr_1 => \AudioClkGen:UDB_ACG:sync:addr_1\ ,
+        cs_addr_0 => \AudioClkGen:UDB_ACG:sync:addr_0\ ,
+        so_comb => \AudioClkGen:UDB_ACG:value\ ,
+        chain_in => \AudioClkGen:UDB_ACG:sync:SofCounter:carry\ );
     Properties:
     {
-        cy_force_order = 1
-        cy_int_mask = "0000011"
-        cy_md_select = "0000011"
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0010000001000000100000000100000000000000000100000110110000010000011101000001000010101000010000000001000100010000101010000100000011111111000000001111111111111111000011110000111100000001000000110000000000000000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
     }
     Clock Polarity: Active High
     Clock Enable: True
+    Previous in chain : \AudioClkGen:UDB_ACG:sync:SofCounter:u0\
+
+controlcell: Name =\Clock_CIC_Running:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => \Clock_CIC_Running:control_7\ ,
+        control_6 => \Clock_CIC_Running:control_6\ ,
+        control_5 => \Clock_CIC_Running:control_5\ ,
+        control_4 => \Clock_CIC_Running:control_4\ ,
+        control_3 => \Clock_CIC_Running:control_3\ ,
+        control_2 => \Clock_CIC_Running:control_2\ ,
+        control_1 => \Clock_CIC_Running:control_1\ ,
+        control_0 => Net_4299 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
 
 UDB [UDB=(0,3)] contents:
-LAB@[UDB=(0,3)][LB=0] #macrocells=2, #inputs=12, #pterms=8
+LAB@[UDB=(0,3)][LB=0] #macrocells=3, #inputs=11, #pterms=8
 {
     [McSlotId=0]:     MacroCell: Name=\AudioClkGen:UDB_ACG:sync:addr_2\, Mode=(D-Register) @ [UDB=(0,3)][LB=0][MC=0]
         Total # of inputs        : 9
@@ -4515,26 +4708,85 @@ LAB@[UDB=(0,3)][LB=0] #macrocells=2, #inputs=12, #pterms=8
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=Net_4290, Mode=(Combinatorial) @ [UDB=(0,3)][LB=0][MC=1]
-        Total # of inputs        : 3
+    [McSlotId=1]:     MacroCell: Name=GenClock, Mode=(D-Register) @ [UDB=(0,3)][LB=0][MC=1]
+        Total # of inputs        : 2
         Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_3093) => Global
             Clock Enable: True
         Main Equation            : 1 pterm
-        !(
-              cydff_2 * Net_4350 * Net_4299
+        (
+              \AudioClkGen:UDB_ACG:div:state_1\ * 
+              \AudioClkGen:UDB_ACG:div:state_0\
         );
-        Output = Net_4290 (fanout=1)
+        Output = GenClock (fanout=1)
+        Properties               : 
+        {
+            clock_driver = "GenClock"
+        }
+
+    [McSlotId=2]:     MacroCell: Name=__ONE__, Mode=(Combinatorial) @ [UDB=(0,3)][LB=0][MC=2]
+        Total # of inputs        : 0
+        Total # of product terms : 0
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        !(
+            0
+        );
+        Output = __ONE__ (fanout=1)
         Properties               : 
         {
         }
 
-    [McSlotId=2]: (empty)
     [McSlotId=3]: (empty)
 }
 
-LAB@[UDB=(0,3)][LB=1] #macrocells=1, #inputs=5, #pterms=2
+LAB@[UDB=(0,3)][LB=1] #macrocells=4, #inputs=10, #pterms=8
 {
-    [McSlotId=0]:     MacroCell: Name=\AudioClkGen:UDB_ACG:sync_ready\, Mode=(T-Register) @ [UDB=(0,3)][LB=1][MC=0]
+    [McSlotId=0]:     MacroCell: Name=\AudioClkGen:UDB_ACG:div:state_0\, Mode=(D-Register) @ [UDB=(0,3)][LB=1][MC=0]
+        Total # of inputs        : 5
+        Total # of product terms : 3
+        List of special equations: 
+            Clock  = (Net_3093) => Global
+            Clock Enable: True
+        Main Equation            : 3 pterms
+        (
+              !\AudioClkGen:UDB_ACG:trigger_shaper\ * 
+              \AudioClkGen:UDB_ACG:div:state_1\ * 
+              \AudioClkGen:UDB_ACG:div:state_0\
+            + !\AudioClkGen:UDB_ACG:div:state_1\ * 
+              !\AudioClkGen:UDB_ACG:div:state_0\ * 
+              \AudioClkGen:UDB_ACG:div:deltaReg\
+            + \AudioClkGen:UDB_ACG:div:state_1\ * 
+              !\AudioClkGen:UDB_ACG:div:state_0\ * 
+              \AudioClkGen:UDB_ACG:div:ce0\
+        );
+        Output = \AudioClkGen:UDB_ACG:div:state_0\ (fanout=5)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\AudioClkGen:UDB_ACG:sync:counterAddr_0\, Mode=(Combinatorial) @ [UDB=(0,3)][LB=1][MC=1]
+        Total # of inputs        : 4
+        Total # of product terms : 2
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !\AudioClkGen:UDB_ACG:sync:addr_2\ * 
+              \AudioClkGen:UDB_ACG:sync:addr_1\ * 
+              !\AudioClkGen:UDB_ACG:sync:addr_0\ * 
+              !\AudioClkGen:UDB_ACG:sync:state_3\
+            + \AudioClkGen:UDB_ACG:sync:addr_2\ * 
+              !\AudioClkGen:UDB_ACG:sync:addr_1\ * 
+              \AudioClkGen:UDB_ACG:sync:addr_0\ * 
+              !\AudioClkGen:UDB_ACG:sync:state_3\
+        );
+        Output = \AudioClkGen:UDB_ACG:sync:counterAddr_0\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\AudioClkGen:UDB_ACG:sync:state_3\, Mode=(D-Register) @ [UDB=(0,3)][LB=1][MC=2]
         Total # of inputs        : 5
         Total # of product terms : 2
         List of special equations: 
@@ -4542,24 +4794,41 @@ LAB@[UDB=(0,3)][LB=1] #macrocells=1, #inputs=5, #pterms=2
             Clock Enable: True
         Main Equation            : 2 pterms
         (
-              \AudioClkGen:UDB_ACG:sync:addr_2\ * 
+              !\AudioClkGen:UDB_ACG:sync:addr_2\ * 
               !\AudioClkGen:UDB_ACG:sync:addr_1\ * 
               !\AudioClkGen:UDB_ACG:sync:addr_0\ * 
-              !\AudioClkGen:UDB_ACG:sync:state_3\ * 
-              !\AudioClkGen:UDB_ACG:sync_ready\
+              \AudioClkGen:UDB_ACG:sync:state_3\ * 
+              !\AudioClkGen:UDB_ACG:transfer\
             + \AudioClkGen:UDB_ACG:sync:addr_2\ * 
-              \AudioClkGen:UDB_ACG:sync:addr_1\ * 
+              !\AudioClkGen:UDB_ACG:sync:addr_1\ * 
+              \AudioClkGen:UDB_ACG:sync:addr_0\ * 
               !\AudioClkGen:UDB_ACG:sync:state_3\ * 
-              \AudioClkGen:UDB_ACG:sync_ready\
+              !\AudioClkGen:UDB_ACG:transfer\
         );
-        Output = \AudioClkGen:UDB_ACG:sync_ready\ (fanout=3)
+        Output = \AudioClkGen:UDB_ACG:sync:state_3\ (fanout=9)
         Properties               : 
         {
         }
 
-    [McSlotId=1]: (empty)
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
+    [McSlotId=3]:     MacroCell: Name=\AudioClkGen:UDB_ACG:sync:counterAddr_1\, Mode=(Combinatorial) @ [UDB=(0,3)][LB=1][MC=3]
+        Total # of inputs        : 4
+        Total # of product terms : 2
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !\AudioClkGen:UDB_ACG:sync:addr_2\ * 
+              \AudioClkGen:UDB_ACG:sync:addr_1\ * 
+              \AudioClkGen:UDB_ACG:sync:addr_0\ * 
+              !\AudioClkGen:UDB_ACG:sync:state_3\
+            + \AudioClkGen:UDB_ACG:sync:addr_2\ * 
+              !\AudioClkGen:UDB_ACG:sync:addr_1\ * 
+              \AudioClkGen:UDB_ACG:sync:addr_0\ * 
+              !\AudioClkGen:UDB_ACG:sync:state_3\
+        );
+        Output = \AudioClkGen:UDB_ACG:sync:counterAddr_1\ (fanout=1)
+        Properties               : 
+        {
+        }
 }
 
 datapathcell: Name =\AudioClkGen:UDB_ACG:sync:Counter:u0\
@@ -4598,155 +4867,9 @@ datapathcell: Name =\AudioClkGen:UDB_ACG:sync:Counter:u0\
     Clock Enable: True
 
 UDB [UDB=(0,4)] contents:
-LAB@[UDB=(0,4)][LB=0] #macrocells=4, #inputs=6, #pterms=5
+LAB@[UDB=(0,4)][LB=0] #macrocells=2, #inputs=5, #pterms=2
 {
-    [McSlotId=0]:     MacroCell: Name=n1, Mode=(D-Register) @ [UDB=(0,4)][LB=0][MC=0]
-        Total # of inputs        : 3
-        Total # of product terms : 2
-        List of special equations: 
-            Clock  = (Net_4258) => Global
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        (
-              !Net_183 * c1
-            + Net_183 * c0
-        );
-        Output = n1 (fanout=3)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=n2, Mode=(D-Register) @ [UDB=(0,4)][LB=0][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (Net_4258) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              n1
-        );
-        Output = n2 (fanout=3)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=Net_3936, Mode=(D-Register) @ [UDB=(0,4)][LB=0][MC=2]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (Net_4258) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_3941
-        );
-        Output = Net_3936 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]:     MacroCell: Name=Net_3941, Mode=(D-Register) @ [UDB=(0,4)][LB=0][MC=3]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (Net_4258) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              n2
-        );
-        Output = Net_3941 (fanout=2)
-        Properties               : 
-        {
-        }
-}
-
-LAB@[UDB=(0,4)][LB=1] #macrocells=2, #inputs=1, #pterms=1
-{
-    [McSlotId=0]:     MacroCell: Name=Net_4249, Mode=(D-Register) @ [UDB=(0,4)][LB=1][MC=0]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (Net_4258) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              n4
-        );
-        Output = Net_4249 (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=Net_183, Mode=(T-Register) @ [UDB=(0,4)][LB=1][MC=1]
-        Total # of inputs        : 0
-        Total # of product terms : 0
-        List of special equations: 
-            Clock  = (Net_4258) => Global
-            Clock Enable: True
-        Main Equation            : 0 pterms
-        !(
-            0
-        );
-        Output = Net_183 (fanout=5)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-datapathcell: Name =\AudioClkGen:UDB_ACG:sync:SofCounter:u0\
-    PORT MAP (
-        clock => Net_3093 ,
-        cs_addr_2 => \AudioClkGen:UDB_ACG:sync:addr_2\ ,
-        cs_addr_1 => \AudioClkGen:UDB_ACG:sync:addr_1\ ,
-        cs_addr_0 => \AudioClkGen:UDB_ACG:sync:addr_0\ ,
-        chain_out => \AudioClkGen:UDB_ACG:sync:SofCounter:carry\ );
-    Properties:
-    {
-        a0_init = "00000000"
-        a1_init = "00000000"
-        ce0_sync = 1
-        ce1_sync = 1
-        cl0_sync = 1
-        cl1_sync = 1
-        cmsb_sync = 1
-        co_msb_sync = 1
-        cy_dpconfig = "0010000001000000100000000100000000000000000100000110110000010000011101000001000010101000010000000001000100010000101010000100000011111111000000001111111111111111000000000000000000000001000000000000000000000000"
-        d0_init = "00000000"
-        d1_init = "00000000"
-        f0_blk_sync = 1
-        f0_bus_sync = 1
-        f1_blk_sync = 1
-        f1_bus_sync = 1
-        ff0_sync = 1
-        ff1_sync = 1
-        ov_msb_sync = 1
-        so_sync = 1
-        z0_sync = 1
-        z1_sync = 1
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-    Next in chain : \AudioClkGen:UDB_ACG:sync:SofCounter:u1\
-
-synccell: Name =\USBFS:nrqSync:genblk1[7]:INST\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        out => \USBFS:dma_nrq_sync_7\ );
-    Properties:
-    {
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-UDB [UDB=(0,5)] contents:
-LAB@[UDB=(0,5)][LB=0] #macrocells=2, #inputs=5, #pterms=2
-{
-    [McSlotId=0]:     MacroCell: Name=cydff_2, Mode=(D-Register) @ [UDB=(0,5)][LB=0][MC=0]
+    [McSlotId=0]:     MacroCell: Name=cydff_2, Mode=(D-Register) @ [UDB=(0,4)][LB=0][MC=0]
         Total # of inputs        : 4
         Total # of product terms : 1
         List of special equations: 
@@ -4761,7 +4884,7 @@ LAB@[UDB=(0,5)][LB=0] #macrocells=2, #inputs=5, #pterms=2
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=Net_4003, Mode=(Combinatorial) @ [UDB=(0,5)][LB=0][MC=1]
+    [McSlotId=1]:     MacroCell: Name=Net_4003, Mode=(Combinatorial) @ [UDB=(0,4)][LB=0][MC=1]
         Total # of inputs        : 1
         Total # of product terms : 1
             Clock Enable: True
@@ -4778,26 +4901,9 @@ LAB@[UDB=(0,5)][LB=0] #macrocells=2, #inputs=5, #pterms=2
     [McSlotId=3]: (empty)
 }
 
-LAB@[UDB=(0,5)][LB=1] #macrocells=3, #inputs=5, #pterms=4
+LAB@[UDB=(0,4)][LB=1] #macrocells=2, #inputs=2, #pterms=2
 {
-    [McSlotId=0]:     MacroCell: Name=n3, Mode=(D-Register) @ [UDB=(0,5)][LB=1][MC=0]
-        Total # of inputs        : 3
-        Total # of product terms : 2
-        List of special equations: 
-            Clock  = (Net_4258) => Global
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        (
-              !Net_183 * c3
-            + Net_183 * c2
-        );
-        Output = n3 (fanout=3)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]: (empty)
-    [McSlotId=2]:     MacroCell: Name=Net_3954, Mode=(D-Register) @ [UDB=(0,5)][LB=1][MC=2]
+    [McSlotId=0]:     MacroCell: Name=\FreqDiv_1:count_0\, Mode=(T-Register) @ [UDB=(0,4)][LB=1][MC=0]
         Total # of inputs        : 1
         Total # of product terms : 1
         List of special equations: 
@@ -4805,14 +4911,14 @@ LAB@[UDB=(0,5)][LB=1] #macrocells=3, #inputs=5, #pterms=4
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              Net_4249
+              \FreqDiv_1:not_last_reset\
         );
-        Output = Net_3954 (fanout=1)
+        Output = \FreqDiv_1:count_0\ (fanout=12)
         Properties               : 
         {
         }
 
-    [McSlotId=3]:     MacroCell: Name=n4, Mode=(D-Register) @ [UDB=(0,5)][LB=1][MC=3]
+    [McSlotId=1]:     MacroCell: Name=n4, Mode=(D-Register) @ [UDB=(0,4)][LB=1][MC=1]
         Total # of inputs        : 1
         Total # of product terms : 1
         List of special equations: 
@@ -4826,16 +4932,18 @@ LAB@[UDB=(0,5)][LB=1] #macrocells=3, #inputs=5, #pterms=4
         Properties               : 
         {
         }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
 }
 
-datapathcell: Name =\AudioClkGen:UDB_ACG:sync:SofCounter:u1\
+datapathcell: Name =\AudioClkGen:UDB_ACG:div:Div:u0\
     PORT MAP (
         clock => Net_3093 ,
-        cs_addr_2 => \AudioClkGen:UDB_ACG:sync:addr_2\ ,
-        cs_addr_1 => \AudioClkGen:UDB_ACG:sync:addr_1\ ,
-        cs_addr_0 => \AudioClkGen:UDB_ACG:sync:addr_0\ ,
-        so_comb => \AudioClkGen:UDB_ACG:value\ ,
-        chain_in => \AudioClkGen:UDB_ACG:sync:SofCounter:carry\ );
+        cs_addr_1 => \AudioClkGen:UDB_ACG:div:state_1\ ,
+        cs_addr_0 => \AudioClkGen:UDB_ACG:div:state_0\ ,
+        ce0_comb => \AudioClkGen:UDB_ACG:div:ce0\ ,
+        ce1_comb => \AudioClkGen:UDB_ACG:trigger_shaper\ );
     Properties:
     {
         a0_init = "00000000"
@@ -4846,7 +4954,7 @@ datapathcell: Name =\AudioClkGen:UDB_ACG:sync:SofCounter:u1\
         cl1_sync = 1
         cmsb_sync = 1
         co_msb_sync = 1
-        cy_dpconfig = "0010000001000000100000000100000000000000000100000110110000010000011101000001000010101000010000000001000100010000101010000100000011111111000000001111111111111111000011110000111100000001000000110000000000000000"
+        cy_dpconfig = "1010100001000000000000000000000000100000010000000010000001000000000000000000000000000000000000000000000000000000000000000000000011111111000000001111111111111111101000000000000000000001000000000000000000000000"
         d0_init = "00000000"
         d1_init = "00000000"
         f0_blk_sync = 1
@@ -4862,7 +4970,121 @@ datapathcell: Name =\AudioClkGen:UDB_ACG:sync:SofCounter:u1\
     }
     Clock Polarity: Active High
     Clock Enable: True
-    Previous in chain : \AudioClkGen:UDB_ACG:sync:SofCounter:u0\
+
+UDB [UDB=(0,5)] contents:
+LAB@[UDB=(0,5)][LB=0] #macrocells=3, #inputs=5, #pterms=4
+{
+    [McSlotId=0]:     MacroCell: Name=n3, Mode=(D-Register) @ [UDB=(0,5)][LB=0][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_4258) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_183 * c3
+            + Net_183 * c2
+        );
+        Output = n3 (fanout=3)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=n2, Mode=(D-Register) @ [UDB=(0,5)][LB=0][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_4258) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              n1
+        );
+        Output = n2 (fanout=3)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]:     MacroCell: Name=Net_3941, Mode=(D-Register) @ [UDB=(0,5)][LB=0][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_4258) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              n2
+        );
+        Output = Net_3941 (fanout=2)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(0,5)][LB=1] #macrocells=4, #inputs=6, #pterms=5
+{
+    [McSlotId=0]:     MacroCell: Name=n1, Mode=(D-Register) @ [UDB=(0,5)][LB=1][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_4258) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              !Net_183 * c1
+            + Net_183 * c0
+        );
+        Output = n1 (fanout=3)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_3936, Mode=(D-Register) @ [UDB=(0,5)][LB=1][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_4258) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_3941
+        );
+        Output = Net_3936 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=Net_3954, Mode=(D-Register) @ [UDB=(0,5)][LB=1][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_4258) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_4249
+        );
+        Output = Net_3954 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=Net_4249, Mode=(D-Register) @ [UDB=(0,5)][LB=1][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_4258) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              n4
+        );
+        Output = Net_4249 (fanout=2)
+        Properties               : 
+        {
+        }
+}
 
 statuscell: Name =\Status_Reg_1:sts:sts_reg\
     PORT MAP (
@@ -4882,9 +5104,10 @@ statuscell: Name =\Status_Reg_1:sts:sts_reg\
     Clock Enable: True
 
 UDB [UDB=(1,1)] contents:
-LAB@[UDB=(1,1)][LB=0] #macrocells=3, #inputs=11, #pterms=8
+LAB@[UDB=(1,1)][LB=0] #macrocells=2, #inputs=8, #pterms=4
 {
-    [McSlotId=0]:     MacroCell: Name=\AudioClkGen:UDB_ACG:shaper:state_1\, Mode=(D-Register) @ [UDB=(1,1)][LB=0][MC=0]
+    [McSlotId=0]: (empty)
+    [McSlotId=1]:     MacroCell: Name=\AudioClkGen:UDB_ACG:shaper:state_1\, Mode=(D-Register) @ [UDB=(1,1)][LB=0][MC=1]
         Total # of inputs        : 3
         Total # of product terms : 2
         List of special equations: 
@@ -4904,81 +5127,29 @@ LAB@[UDB=(1,1)][LB=0] #macrocells=3, #inputs=11, #pterms=8
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=\AudioClkGen:UDB_ACG:shaper:state_0\, Mode=(D-Register) @ [UDB=(1,1)][LB=0][MC=1]
+    [McSlotId=2]:     MacroCell: Name=\AudioClkGen:UDB_ACG:sync_ready\, Mode=(T-Register) @ [UDB=(1,1)][LB=0][MC=2]
         Total # of inputs        : 5
-        Total # of product terms : 3
+        Total # of product terms : 2
         List of special equations: 
             Clock  = (Net_3093) => Global
             Clock Enable: True
-        Main Equation            : 3 pterms
-        (
-              !\AudioClkGen:UDB_ACG:shaper:state_2\ * 
-              !\AudioClkGen:UDB_ACG:shaper:state_1\ * 
-              \AudioClkGen:UDB_ACG:shaper:state_0\ * 
-              \AudioClkGen:UDB_ACG:shaper:cl0_1\
-            + !\AudioClkGen:UDB_ACG:shaper:state_2\ * 
-              \AudioClkGen:UDB_ACG:shaper:state_1\ * 
-              !\AudioClkGen:UDB_ACG:shaper:state_0\
-            + !\AudioClkGen:UDB_ACG:shaper:state_2\ * 
-              !\AudioClkGen:UDB_ACG:shaper:state_0\ * 
-              \AudioClkGen:UDB_ACG:trigger_shaper\
-        );
-        Output = \AudioClkGen:UDB_ACG:shaper:state_0\ (fanout=7)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\AudioClkGen:UDB_ACG:shaper:state_2\, Mode=(T-Register) @ [UDB=(1,1)][LB=0][MC=2]
-        Total # of inputs        : 9
-        Total # of product terms : 4
-        List of special equations: 
-            Clock  = (Net_3093) => Global
-            Clock Enable: True
-        Main Equation            : 4 pterms
+        Main Equation            : 2 pterms
         (
               \AudioClkGen:UDB_ACG:sync:addr_2\ * 
-              \AudioClkGen:UDB_ACG:sync:addr_1\ * 
+              !\AudioClkGen:UDB_ACG:sync:addr_1\ * 
               !\AudioClkGen:UDB_ACG:sync:addr_0\ * 
               !\AudioClkGen:UDB_ACG:sync:state_3\ * 
-              \AudioClkGen:UDB_ACG:sync:counterZ1\ * 
-              \AudioClkGen:UDB_ACG:shaper:state_2\
-            + \AudioClkGen:UDB_ACG:sync_ready\ * 
-              \AudioClkGen:UDB_ACG:shaper:state_1\ * 
-              \AudioClkGen:UDB_ACG:shaper:state_0\
-            + \AudioClkGen:UDB_ACG:shaper:state_2\ * 
-              \AudioClkGen:UDB_ACG:shaper:state_1\
-            + \AudioClkGen:UDB_ACG:shaper:state_2\ * 
-              \AudioClkGen:UDB_ACG:shaper:state_0\
+              !\AudioClkGen:UDB_ACG:sync_ready\
+            + \AudioClkGen:UDB_ACG:sync:addr_2\ * 
+              \AudioClkGen:UDB_ACG:sync:addr_1\ * 
+              !\AudioClkGen:UDB_ACG:sync:state_3\ * 
+              \AudioClkGen:UDB_ACG:sync_ready\
         );
-        Output = \AudioClkGen:UDB_ACG:shaper:state_2\ (fanout=7)
+        Output = \AudioClkGen:UDB_ACG:sync_ready\ (fanout=3)
         Properties               : 
         {
         }
 
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(1,1)][LB=1] #macrocells=1, #inputs=2, #pterms=1
-{
-    [McSlotId=0]: (empty)
-    [McSlotId=1]:     MacroCell: Name=GenClock, Mode=(D-Register) @ [UDB=(1,1)][LB=1][MC=1]
-        Total # of inputs        : 2
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (Net_3093) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              \AudioClkGen:UDB_ACG:div:state_1\ * 
-              \AudioClkGen:UDB_ACG:div:state_0\
-        );
-        Output = GenClock (fanout=1)
-        Properties               : 
-        {
-            clock_driver = "GenClock"
-        }
-
-    [McSlotId=2]: (empty)
     [McSlotId=3]: (empty)
 }
 
@@ -5018,231 +5189,13 @@ datapathcell: Name =\AudioClkGen:UDB_ACG:shaper:Div:u0\
     Clock Enable: True
     Next in chain : \AudioClkGen:UDB_ACG:shaper:Div:u1\
 
-statusicell: Name =\USBFS:EP17_DMA_Done_SR:sts_intr:sts_reg\
+synccell: Name =\USBFS:nrqSync:genblk1[1]:INST\
     PORT MAP (
         clock => ClockBlock_BUS_CLK ,
-        status_6 => \USBFS:dma_nrq_sync_6\ ,
-        status_5 => \USBFS:dma_nrq_sync_5\ ,
-        status_4 => \USBFS:dma_nrq_sync_4\ ,
-        status_3 => \USBFS:dma_nrq_sync_3\ ,
-        status_2 => \USBFS:dma_nrq_sync_2\ ,
-        status_1 => \USBFS:dma_nrq_sync_1\ ,
-        status_0 => \USBFS:dma_nrq_sync_0\ ,
-        interrupt => \USBFS:Net_1768\ );
+        in => \USBFS:dma_nrq_1\ ,
+        out => \USBFS:dma_nrq_sync_1\ );
     Properties:
     {
-        cy_force_order = 1
-        cy_int_mask = "1111111"
-        cy_md_select = "1111111"
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-UDB [UDB=(1,2)] contents:
-LAB@[UDB=(1,2)][LB=0] #macrocells=4, #inputs=10, #pterms=7
-{
-    [McSlotId=0]:     MacroCell: Name=\AudioClkGen:UDB_ACG:delta\, Mode=(T-Register) @ [UDB=(1,2)][LB=0][MC=0]
-        Total # of inputs        : 5
-        Total # of product terms : 2
-        List of special equations: 
-            Clock  = (Net_3093) => Global
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        (
-              !\AudioClkGen:UDB_ACG:shaper:state_2\ * 
-              !\AudioClkGen:UDB_ACG:shaper:state_1\ * 
-              \AudioClkGen:UDB_ACG:shaper:state_0\ * 
-              !\AudioClkGen:UDB_ACG:shaper:cl0_1\ * 
-              !\AudioClkGen:UDB_ACG:delta\
-            + !\AudioClkGen:UDB_ACG:shaper:state_2\ * 
-              !\AudioClkGen:UDB_ACG:shaper:state_1\ * 
-              \AudioClkGen:UDB_ACG:shaper:state_0\ * 
-              \AudioClkGen:UDB_ACG:shaper:cl0_1\ * 
-              \AudioClkGen:UDB_ACG:delta\
-        );
-        Output = \AudioClkGen:UDB_ACG:delta\ (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\AudioClkGen:UDB_ACG:transfer\, Mode=(D-Register) @ [UDB=(1,2)][LB=0][MC=1]
-        Total # of inputs        : 4
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (Net_3093) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              \AudioClkGen:UDB_ACG:sync_ready\ * 
-              !\AudioClkGen:UDB_ACG:shaper:state_2\ * 
-              \AudioClkGen:UDB_ACG:shaper:state_1\ * 
-              \AudioClkGen:UDB_ACG:shaper:state_0\
-        );
-        Output = \AudioClkGen:UDB_ACG:transfer\ (fanout=3)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\AudioClkGen:UDB_ACG:div:deltaReg\, Mode=(T-Register) @ [UDB=(1,2)][LB=0][MC=2]
-        Total # of inputs        : 5
-        Total # of product terms : 2
-        List of special equations: 
-            Clock  = (Net_3093) => Global
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        (
-              \AudioClkGen:UDB_ACG:trigger_shaper\ * 
-              !\AudioClkGen:UDB_ACG:delta\ * 
-              \AudioClkGen:UDB_ACG:div:state_1\ * 
-              \AudioClkGen:UDB_ACG:div:state_0\ * 
-              \AudioClkGen:UDB_ACG:div:deltaReg\
-            + \AudioClkGen:UDB_ACG:trigger_shaper\ * 
-              \AudioClkGen:UDB_ACG:delta\ * \AudioClkGen:UDB_ACG:div:state_1\ * 
-              \AudioClkGen:UDB_ACG:div:state_0\ * 
-              !\AudioClkGen:UDB_ACG:div:deltaReg\
-        );
-        Output = \AudioClkGen:UDB_ACG:div:deltaReg\ (fanout=3)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]:     MacroCell: Name=\AudioClkGen:UDB_ACG:div:state_1\, Mode=(D-Register) @ [UDB=(1,2)][LB=0][MC=3]
-        Total # of inputs        : 4
-        Total # of product terms : 2
-        List of special equations: 
-            Clock  = (Net_3093) => Global
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        !(
-              \AudioClkGen:UDB_ACG:trigger_shaper\ * 
-              \AudioClkGen:UDB_ACG:div:state_1\ * 
-              \AudioClkGen:UDB_ACG:div:state_0\
-            + !\AudioClkGen:UDB_ACG:div:state_1\ * 
-              !\AudioClkGen:UDB_ACG:div:state_0\ * 
-              \AudioClkGen:UDB_ACG:div:deltaReg\
-        );
-        Output = \AudioClkGen:UDB_ACG:div:state_1\ (fanout=5)
-        Properties               : 
-        {
-        }
-}
-
-LAB@[UDB=(1,2)][LB=1] #macrocells=4, #inputs=10, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=\AudioClkGen:UDB_ACG:div:state_0\, Mode=(D-Register) @ [UDB=(1,2)][LB=1][MC=0]
-        Total # of inputs        : 5
-        Total # of product terms : 3
-        List of special equations: 
-            Clock  = (Net_3093) => Global
-            Clock Enable: True
-        Main Equation            : 3 pterms
-        (
-              !\AudioClkGen:UDB_ACG:trigger_shaper\ * 
-              \AudioClkGen:UDB_ACG:div:state_1\ * 
-              \AudioClkGen:UDB_ACG:div:state_0\
-            + !\AudioClkGen:UDB_ACG:div:state_1\ * 
-              !\AudioClkGen:UDB_ACG:div:state_0\ * 
-              \AudioClkGen:UDB_ACG:div:deltaReg\
-            + \AudioClkGen:UDB_ACG:div:state_1\ * 
-              !\AudioClkGen:UDB_ACG:div:state_0\ * 
-              \AudioClkGen:UDB_ACG:div:ce0\
-        );
-        Output = \AudioClkGen:UDB_ACG:div:state_0\ (fanout=5)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\AudioClkGen:UDB_ACG:sync:counterAddr_2\, Mode=(Combinatorial) @ [UDB=(1,2)][LB=1][MC=1]
-        Total # of inputs        : 4
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              \AudioClkGen:UDB_ACG:sync:addr_2\ * 
-              \AudioClkGen:UDB_ACG:sync:addr_1\ * 
-              !\AudioClkGen:UDB_ACG:sync:addr_0\ * 
-              !\AudioClkGen:UDB_ACG:sync:state_3\
-        );
-        Output = \AudioClkGen:UDB_ACG:sync:counterAddr_2\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\AudioClkGen:UDB_ACG:sync:state_3\, Mode=(D-Register) @ [UDB=(1,2)][LB=1][MC=2]
-        Total # of inputs        : 5
-        Total # of product terms : 2
-        List of special equations: 
-            Clock  = (Net_3093) => Global
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        (
-              !\AudioClkGen:UDB_ACG:sync:addr_2\ * 
-              !\AudioClkGen:UDB_ACG:sync:addr_1\ * 
-              !\AudioClkGen:UDB_ACG:sync:addr_0\ * 
-              \AudioClkGen:UDB_ACG:sync:state_3\ * 
-              !\AudioClkGen:UDB_ACG:transfer\
-            + \AudioClkGen:UDB_ACG:sync:addr_2\ * 
-              !\AudioClkGen:UDB_ACG:sync:addr_1\ * 
-              \AudioClkGen:UDB_ACG:sync:addr_0\ * 
-              !\AudioClkGen:UDB_ACG:sync:state_3\ * 
-              !\AudioClkGen:UDB_ACG:transfer\
-        );
-        Output = \AudioClkGen:UDB_ACG:sync:state_3\ (fanout=9)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]:     MacroCell: Name=\AudioClkGen:UDB_ACG:sync:counterAddr_1\, Mode=(Combinatorial) @ [UDB=(1,2)][LB=1][MC=3]
-        Total # of inputs        : 4
-        Total # of product terms : 2
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        (
-              !\AudioClkGen:UDB_ACG:sync:addr_2\ * 
-              \AudioClkGen:UDB_ACG:sync:addr_1\ * 
-              \AudioClkGen:UDB_ACG:sync:addr_0\ * 
-              !\AudioClkGen:UDB_ACG:sync:state_3\
-            + \AudioClkGen:UDB_ACG:sync:addr_2\ * 
-              !\AudioClkGen:UDB_ACG:sync:addr_1\ * 
-              \AudioClkGen:UDB_ACG:sync:addr_0\ * 
-              !\AudioClkGen:UDB_ACG:sync:state_3\
-        );
-        Output = \AudioClkGen:UDB_ACG:sync:counterAddr_1\ (fanout=1)
-        Properties               : 
-        {
-        }
-}
-
-datapathcell: Name =\AudioClkGen:UDB_ACG:div:Div:u0\
-    PORT MAP (
-        clock => Net_3093 ,
-        cs_addr_1 => \AudioClkGen:UDB_ACG:div:state_1\ ,
-        cs_addr_0 => \AudioClkGen:UDB_ACG:div:state_0\ ,
-        ce0_comb => \AudioClkGen:UDB_ACG:div:ce0\ ,
-        ce1_comb => \AudioClkGen:UDB_ACG:trigger_shaper\ );
-    Properties:
-    {
-        a0_init = "00000000"
-        a1_init = "00000000"
-        ce0_sync = 1
-        ce1_sync = 1
-        cl0_sync = 1
-        cl1_sync = 1
-        cmsb_sync = 1
-        co_msb_sync = 1
-        cy_dpconfig = "1010100001000000000000000000000000100000010000000010000001000000000000000000000000000000000000000000000000000000000000000000000011111111000000001111111111111111101000000000000000000001000000000000000000000000"
-        d0_init = "00000000"
-        d1_init = "00000000"
-        f0_blk_sync = 1
-        f0_bus_sync = 1
-        f1_blk_sync = 1
-        f1_bus_sync = 1
-        ff0_sync = 1
-        ff1_sync = 1
-        ov_msb_sync = 1
-        so_sync = 1
-        z0_sync = 1
-        z1_sync = 1
     }
     Clock Polarity: Active High
     Clock Enable: True
@@ -5268,10 +5221,10 @@ synccell: Name =\USBFS:nrqSync:genblk1[6]:INST\
     Clock Polarity: Active High
     Clock Enable: True
 
-UDB [UDB=(1,3)] contents:
-LAB@[UDB=(1,3)][LB=0] #macrocells=4, #inputs=8, #pterms=8
+UDB [UDB=(1,2)] contents:
+LAB@[UDB=(1,2)][LB=0] #macrocells=4, #inputs=8, #pterms=8
 {
-    [McSlotId=0]:     MacroCell: Name=\FreqDiv_3:count_1\, Mode=(T-Register) @ [UDB=(1,3)][LB=0][MC=0]
+    [McSlotId=0]:     MacroCell: Name=\FreqDiv_3:count_1\, Mode=(T-Register) @ [UDB=(1,2)][LB=0][MC=0]
         Total # of inputs        : 7
         Total # of product terms : 3
         List of special equations: 
@@ -5290,7 +5243,27 @@ LAB@[UDB=(1,3)][LB=0] #macrocells=4, #inputs=8, #pterms=8
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=Net_4350, Mode=(T-Register) @ [UDB=(1,3)][LB=0][MC=1]
+    [McSlotId=1]:     MacroCell: Name=\FreqDiv_3:count_4\, Mode=(T-Register) @ [UDB=(1,2)][LB=0][MC=1]
+        Total # of inputs        : 7
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              \FreqDiv_3:not_last_reset\ * \FreqDiv_3:count_5\ * 
+              \FreqDiv_3:count_4\ * !\FreqDiv_3:count_3\ * 
+              !\FreqDiv_3:count_2\ * !\FreqDiv_3:count_1\ * 
+              \FreqDiv_3:count_0\
+            + \FreqDiv_3:not_last_reset\ * \FreqDiv_3:count_3\ * 
+              \FreqDiv_3:count_2\ * \FreqDiv_3:count_1\ * \FreqDiv_3:count_0\
+        );
+        Output = \FreqDiv_3:count_4\ (fanout=4)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=Net_4350, Mode=(T-Register) @ [UDB=(1,2)][LB=0][MC=2]
         Total # of inputs        : 8
         Total # of product terms : 3
         List of special equations: 
@@ -5312,7 +5285,25 @@ LAB@[UDB=(1,3)][LB=0] #macrocells=4, #inputs=8, #pterms=8
         {
         }
 
-    [McSlotId=2]:     MacroCell: Name=\FreqDiv_3:count_0\, Mode=(T-Register) @ [UDB=(1,3)][LB=0][MC=2]
+    [McSlotId=3]:     MacroCell: Name=\FreqDiv_3:not_last_reset\, Mode=(D-Register) @ [UDB=(1,2)][LB=0][MC=3]
+        Total # of inputs        : 0
+        Total # of product terms : 0
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        !(
+            0
+        );
+        Output = \FreqDiv_3:not_last_reset\ (fanout=7)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(1,2)][LB=1] #macrocells=4, #inputs=7, #pterms=5
+{
+    [McSlotId=0]:     MacroCell: Name=\FreqDiv_3:count_0\, Mode=(T-Register) @ [UDB=(1,2)][LB=1][MC=0]
         Total # of inputs        : 1
         Total # of product terms : 1
         List of special equations: 
@@ -5327,26 +5318,7 @@ LAB@[UDB=(1,3)][LB=0] #macrocells=4, #inputs=8, #pterms=8
         {
         }
 
-    [McSlotId=3]:     MacroCell: Name=\FreqDiv_3:count_3\, Mode=(T-Register) @ [UDB=(1,3)][LB=0][MC=3]
-        Total # of inputs        : 4
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (ClockBlock_BUS_CLK) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              \FreqDiv_3:not_last_reset\ * \FreqDiv_3:count_2\ * 
-              \FreqDiv_3:count_1\ * \FreqDiv_3:count_0\
-        );
-        Output = \FreqDiv_3:count_3\ (fanout=4)
-        Properties               : 
-        {
-        }
-}
-
-LAB@[UDB=(1,3)][LB=1] #macrocells=4, #inputs=7, #pterms=4
-{
-    [McSlotId=0]:     MacroCell: Name=\FreqDiv_3:count_2\, Mode=(T-Register) @ [UDB=(1,3)][LB=1][MC=0]
+    [McSlotId=1]:     MacroCell: Name=\FreqDiv_3:count_2\, Mode=(T-Register) @ [UDB=(1,2)][LB=1][MC=1]
         Total # of inputs        : 3
         Total # of product terms : 1
         List of special equations: 
@@ -5362,27 +5334,7 @@ LAB@[UDB=(1,3)][LB=1] #macrocells=4, #inputs=7, #pterms=4
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=\FreqDiv_3:count_4\, Mode=(T-Register) @ [UDB=(1,3)][LB=1][MC=1]
-        Total # of inputs        : 7
-        Total # of product terms : 2
-        List of special equations: 
-            Clock  = (ClockBlock_BUS_CLK) => Global
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        (
-              \FreqDiv_3:not_last_reset\ * \FreqDiv_3:count_5\ * 
-              \FreqDiv_3:count_4\ * !\FreqDiv_3:count_3\ * 
-              !\FreqDiv_3:count_2\ * !\FreqDiv_3:count_1\ * 
-              \FreqDiv_3:count_0\
-            + \FreqDiv_3:not_last_reset\ * \FreqDiv_3:count_3\ * 
-              \FreqDiv_3:count_2\ * \FreqDiv_3:count_1\ * \FreqDiv_3:count_0\
-        );
-        Output = \FreqDiv_3:count_4\ (fanout=4)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\FreqDiv_3:count_5\, Mode=(T-Register) @ [UDB=(1,3)][LB=1][MC=2]
+    [McSlotId=2]:     MacroCell: Name=\FreqDiv_3:count_5\, Mode=(T-Register) @ [UDB=(1,2)][LB=1][MC=2]
         Total # of inputs        : 7
         Total # of product terms : 2
         List of special equations: 
@@ -5403,21 +5355,67 @@ LAB@[UDB=(1,3)][LB=1] #macrocells=4, #inputs=7, #pterms=4
         {
         }
 
-    [McSlotId=3]:     MacroCell: Name=\FreqDiv_3:not_last_reset\, Mode=(D-Register) @ [UDB=(1,3)][LB=1][MC=3]
-        Total # of inputs        : 0
-        Total # of product terms : 0
+    [McSlotId=3]:     MacroCell: Name=\FreqDiv_3:count_3\, Mode=(T-Register) @ [UDB=(1,2)][LB=1][MC=3]
+        Total # of inputs        : 4
+        Total # of product terms : 1
         List of special equations: 
             Clock  = (ClockBlock_BUS_CLK) => Global
             Clock Enable: True
-        Main Equation            : 0 pterms
-        !(
-            0
+        Main Equation            : 1 pterm
+        (
+              \FreqDiv_3:not_last_reset\ * \FreqDiv_3:count_2\ * 
+              \FreqDiv_3:count_1\ * \FreqDiv_3:count_0\
         );
-        Output = \FreqDiv_3:not_last_reset\ (fanout=7)
+        Output = \FreqDiv_3:count_3\ (fanout=4)
         Properties               : 
         {
         }
 }
+
+datapathcell: Name =\AudioClkGen:UDB_ACG:sync:SofCounter:u0\
+    PORT MAP (
+        clock => Net_3093 ,
+        cs_addr_2 => \AudioClkGen:UDB_ACG:sync:addr_2\ ,
+        cs_addr_1 => \AudioClkGen:UDB_ACG:sync:addr_1\ ,
+        cs_addr_0 => \AudioClkGen:UDB_ACG:sync:addr_0\ ,
+        chain_out => \AudioClkGen:UDB_ACG:sync:SofCounter:carry\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0010000001000000100000000100000000000000000100000110110000010000011101000001000010101000010000000001000100010000101010000100000011111111000000001111111111111111000000000000000000000001000000000000000000000000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+    Next in chain : \AudioClkGen:UDB_ACG:sync:SofCounter:u1\
+
+synccell: Name =\USBFS:nrqSync:genblk1[0]:INST\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        out => \USBFS:dma_nrq_sync_0\ );
+    Properties:
+    {
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
 
 synccell: Name =\USBFS:nrqSync:genblk1[3]:INST\
     PORT MAP (
@@ -5429,10 +5427,191 @@ synccell: Name =\USBFS:nrqSync:genblk1[3]:INST\
     Clock Polarity: Active High
     Clock Enable: True
 
-UDB [UDB=(1,4)] contents:
-LAB@[UDB=(1,4)][LB=0] #macrocells=4, #inputs=12, #pterms=7
+synccell: Name =\USBFS:nrqSync:genblk1[2]:INST\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        out => \USBFS:dma_nrq_sync_2\ );
+    Properties:
+    {
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+synccell: Name =\USBFS:nrqSync:genblk1[4]:INST\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        out => \USBFS:dma_nrq_sync_4\ );
+    Properties:
+    {
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(1,3)] contents:
+LAB@[UDB=(1,3)][LB=0] #macrocells=3, #inputs=7, #pterms=8
 {
-    [McSlotId=0]:     MacroCell: Name=Net_4277, Mode=(T-Register) @ [UDB=(1,4)][LB=0][MC=0]
+    [McSlotId=0]:     MacroCell: Name=\AudioClkGen:UDB_ACG:sync:addr_0\, Mode=(D-Register) @ [UDB=(1,3)][LB=0][MC=0]
+        Total # of inputs        : 7
+        Total # of product terms : 7
+        List of special equations: 
+            Clock  = (Net_3093) => Global
+            Clock Enable: True
+        Main Equation            : 7 pterms
+        !(
+              !Net_3097 * !\AudioClkGen:UDB_ACG:sync:addr_2\ * 
+              !\AudioClkGen:UDB_ACG:sync:addr_1\ * 
+              !\AudioClkGen:UDB_ACG:sync:addr_0\
+            + Net_3097 * \AudioClkGen:UDB_ACG:sync:addr_2\ * 
+              \AudioClkGen:UDB_ACG:sync:addr_1\ * 
+              !\AudioClkGen:UDB_ACG:sync:lastSof\ * 
+              !\AudioClkGen:UDB_ACG:sync:state_3\
+            + !\AudioClkGen:UDB_ACG:sync:addr_2\ * 
+              !\AudioClkGen:UDB_ACG:sync:addr_1\ * 
+              !\AudioClkGen:UDB_ACG:sync:addr_0\ * 
+              \AudioClkGen:UDB_ACG:sync:lastSof\
+            + !\AudioClkGen:UDB_ACG:sync:addr_2\ * 
+              !\AudioClkGen:UDB_ACG:sync:addr_1\ * 
+              !\AudioClkGen:UDB_ACG:sync:addr_0\ * 
+              \AudioClkGen:UDB_ACG:sync:state_3\
+            + !\AudioClkGen:UDB_ACG:sync:addr_2\ * 
+              \AudioClkGen:UDB_ACG:sync:addr_0\ * 
+              !\AudioClkGen:UDB_ACG:sync:state_3\ * 
+              \AudioClkGen:UDB_ACG:sync:counterZ0\
+            + \AudioClkGen:UDB_ACG:sync:addr_2\ * 
+              \AudioClkGen:UDB_ACG:sync:addr_1\ * 
+              !\AudioClkGen:UDB_ACG:sync:addr_0\ * 
+              !\AudioClkGen:UDB_ACG:sync:state_3\
+            + !\AudioClkGen:UDB_ACG:sync:addr_1\ * 
+              \AudioClkGen:UDB_ACG:sync:addr_0\ * 
+              !\AudioClkGen:UDB_ACG:sync:state_3\
+        );
+        Output = \AudioClkGen:UDB_ACG:sync:addr_0\ (fanout=11)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\AudioClkGen:UDB_ACG:sync:counterAddr_2\, Mode=(Combinatorial) @ [UDB=(1,3)][LB=0][MC=1]
+        Total # of inputs        : 4
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \AudioClkGen:UDB_ACG:sync:addr_2\ * 
+              \AudioClkGen:UDB_ACG:sync:addr_1\ * 
+              !\AudioClkGen:UDB_ACG:sync:addr_0\ * 
+              !\AudioClkGen:UDB_ACG:sync:state_3\
+        );
+        Output = \AudioClkGen:UDB_ACG:sync:counterAddr_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\AudioClkGen:UDB_ACG:sync:lastSof\, Mode=(D-Register) @ [UDB=(1,3)][LB=0][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_3093) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_3097
+        );
+        Output = \AudioClkGen:UDB_ACG:sync:lastSof\ (fanout=3)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+statusicell: Name =\USBFS:EP17_DMA_Done_SR:sts_intr:sts_reg\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        status_6 => \USBFS:dma_nrq_sync_6\ ,
+        status_5 => \USBFS:dma_nrq_sync_5\ ,
+        status_4 => \USBFS:dma_nrq_sync_4\ ,
+        status_3 => \USBFS:dma_nrq_sync_3\ ,
+        status_2 => \USBFS:dma_nrq_sync_2\ ,
+        status_1 => \USBFS:dma_nrq_sync_1\ ,
+        status_0 => \USBFS:dma_nrq_sync_0\ ,
+        interrupt => \USBFS:Net_1768\ );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_int_mask = "1111111"
+        cy_md_select = "1111111"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(1,4)] contents:
+LAB@[UDB=(1,4)][LB=0] #macrocells=3, #inputs=11, #pterms=8
+{
+    [McSlotId=0]:     MacroCell: Name=\FreqDiv_2:count_3\, Mode=(T-Register) @ [UDB=(1,4)][LB=0][MC=0]
+        Total # of inputs        : 11
+        Total # of product terms : 5
+        List of special equations: 
+            Clock  = (Net_4258) => Global
+            Clock Enable: True
+        Main Equation            : 5 pterms
+        !(
+              !\FreqDiv_1:not_last_reset\
+            + !\FreqDiv_1:count_1\
+            + !\FreqDiv_1:count_0\
+            + \FreqDiv_2:count_9\ * \FreqDiv_2:count_8\ * \FreqDiv_2:count_7\ * 
+              \FreqDiv_2:count_6\ * \FreqDiv_2:count_5\ * 
+              !\FreqDiv_2:count_4\ * !\FreqDiv_2:count_3\
+            + !\FreqDiv_2:count_2\
+        );
+        Output = \FreqDiv_2:count_3\ (fanout=9)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\FreqDiv_2:count_2\, Mode=(T-Register) @ [UDB=(1,4)][LB=0][MC=1]
+        Total # of inputs        : 3
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_4258) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \FreqDiv_1:not_last_reset\ * \FreqDiv_1:count_1\ * 
+              \FreqDiv_1:count_0\
+        );
+        Output = \FreqDiv_2:count_2\ (fanout=9)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\FreqDiv_2:count_7\, Mode=(T-Register) @ [UDB=(1,4)][LB=0][MC=2]
+        Total # of inputs        : 11
+        Total # of product terms : 2
+        List of special equations: 
+            Clock  = (Net_4258) => Global
+            Clock Enable: True
+        Main Equation            : 2 pterms
+        (
+              \FreqDiv_1:not_last_reset\ * \FreqDiv_1:count_1\ * 
+              \FreqDiv_1:count_0\ * \FreqDiv_2:count_9\ * \FreqDiv_2:count_8\ * 
+              \FreqDiv_2:count_7\ * \FreqDiv_2:count_6\ * \FreqDiv_2:count_5\ * 
+              !\FreqDiv_2:count_4\ * !\FreqDiv_2:count_3\ * 
+              \FreqDiv_2:count_2\
+            + \FreqDiv_1:not_last_reset\ * \FreqDiv_1:count_1\ * 
+              \FreqDiv_1:count_0\ * \FreqDiv_2:count_6\ * \FreqDiv_2:count_5\ * 
+              \FreqDiv_2:count_4\ * \FreqDiv_2:count_3\ * \FreqDiv_2:count_2\
+        );
+        Output = \FreqDiv_2:count_7\ (fanout=8)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+LAB@[UDB=(1,4)][LB=1] #macrocells=4, #inputs=12, #pterms=7
+{
+    [McSlotId=0]:     MacroCell: Name=Net_4277, Mode=(T-Register) @ [UDB=(1,4)][LB=1][MC=0]
         Total # of inputs        : 12
         Total # of product terms : 3
         List of special equations: 
@@ -5458,7 +5637,7 @@ LAB@[UDB=(1,4)][LB=0] #macrocells=4, #inputs=12, #pterms=7
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=\FreqDiv_2:count_5\, Mode=(T-Register) @ [UDB=(1,4)][LB=0][MC=1]
+    [McSlotId=1]:     MacroCell: Name=\FreqDiv_2:count_5\, Mode=(T-Register) @ [UDB=(1,4)][LB=1][MC=1]
         Total # of inputs        : 11
         Total # of product terms : 2
         List of special equations: 
@@ -5480,22 +5659,23 @@ LAB@[UDB=(1,4)][LB=0] #macrocells=4, #inputs=12, #pterms=7
         {
         }
 
-    [McSlotId=2]:     MacroCell: Name=\FreqDiv_2:MODULE_2:g2:a0:g1:z1:s0:g1:u0:b_8\, Mode=(Combinatorial) @ [UDB=(1,4)][LB=0][MC=2]
-        Total # of inputs        : 8
+    [McSlotId=2]:     MacroCell: Name=\FreqDiv_2:count_4\, Mode=(T-Register) @ [UDB=(1,4)][LB=1][MC=2]
+        Total # of inputs        : 5
         Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_4258) => Global
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              \FreqDiv_1:count_1\ * \FreqDiv_1:count_0\ * \FreqDiv_2:count_7\ * 
-              \FreqDiv_2:count_6\ * \FreqDiv_2:count_5\ * \FreqDiv_2:count_4\ * 
-              \FreqDiv_2:count_3\ * \FreqDiv_2:count_2\
+              \FreqDiv_1:not_last_reset\ * \FreqDiv_1:count_1\ * 
+              \FreqDiv_1:count_0\ * \FreqDiv_2:count_3\ * \FreqDiv_2:count_2\
         );
-        Output = \FreqDiv_2:MODULE_2:g2:a0:g1:z1:s0:g1:u0:b_8\ (fanout=2)
+        Output = \FreqDiv_2:count_4\ (fanout=8)
         Properties               : 
         {
         }
 
-    [McSlotId=3]:     MacroCell: Name=\FreqDiv_2:count_6\, Mode=(T-Register) @ [UDB=(1,4)][LB=0][MC=3]
+    [McSlotId=3]:     MacroCell: Name=\FreqDiv_2:count_6\, Mode=(T-Register) @ [UDB=(1,4)][LB=1][MC=3]
         Total # of inputs        : 11
         Total # of product terms : 2
         List of special equations: 
@@ -5518,9 +5698,25 @@ LAB@[UDB=(1,4)][LB=0] #macrocells=4, #inputs=12, #pterms=7
         }
 }
 
-LAB@[UDB=(1,4)][LB=1] #macrocells=4, #inputs=12, #pterms=5
+statusicell: Name =\USBFS:EP8_DMA_Done_SR:sts_intr:sts_reg\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        status_1 => \USBFS:dma_nrq_sync_7\ ,
+        status_0 => \USBFS:Net_1768\ ,
+        interrupt => \USBFS:Net_1522\ );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_int_mask = "0000011"
+        cy_md_select = "0000011"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(1,5)] contents:
+LAB@[UDB=(1,5)][LB=0] #macrocells=4, #inputs=12, #pterms=5
 {
-    [McSlotId=0]:     MacroCell: Name=\FreqDiv_2:count_8\, Mode=(T-Register) @ [UDB=(1,4)][LB=1][MC=0]
+    [McSlotId=0]:     MacroCell: Name=\FreqDiv_2:count_8\, Mode=(T-Register) @ [UDB=(1,5)][LB=0][MC=0]
         Total # of inputs        : 12
         Total # of product terms : 2
         List of special equations: 
@@ -5541,7 +5737,7 @@ LAB@[UDB=(1,4)][LB=1] #macrocells=4, #inputs=12, #pterms=5
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=\FreqDiv_2:count_9\, Mode=(T-Register) @ [UDB=(1,4)][LB=1][MC=1]
+    [McSlotId=1]:     MacroCell: Name=\FreqDiv_2:count_9\, Mode=(T-Register) @ [UDB=(1,5)][LB=0][MC=1]
         Total # of inputs        : 12
         Total # of product terms : 2
         List of special equations: 
@@ -5562,86 +5758,22 @@ LAB@[UDB=(1,4)][LB=1] #macrocells=4, #inputs=12, #pterms=5
         {
         }
 
-    [McSlotId=2]:     MacroCell: Name=\FreqDiv_2:count_7\, Mode=(T-Register) @ [UDB=(1,4)][LB=1][MC=2]
-        Total # of inputs        : 11
-        Total # of product terms : 2
-        List of special equations: 
-            Clock  = (Net_4258) => Global
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        (
-              \FreqDiv_1:not_last_reset\ * \FreqDiv_1:count_1\ * 
-              \FreqDiv_1:count_0\ * \FreqDiv_2:count_9\ * \FreqDiv_2:count_8\ * 
-              \FreqDiv_2:count_7\ * \FreqDiv_2:count_6\ * \FreqDiv_2:count_5\ * 
-              !\FreqDiv_2:count_4\ * !\FreqDiv_2:count_3\ * 
-              \FreqDiv_2:count_2\
-            + \FreqDiv_1:not_last_reset\ * \FreqDiv_1:count_1\ * 
-              \FreqDiv_1:count_0\ * \FreqDiv_2:count_6\ * \FreqDiv_2:count_5\ * 
-              \FreqDiv_2:count_4\ * \FreqDiv_2:count_3\ * \FreqDiv_2:count_2\
-        );
-        Output = \FreqDiv_2:count_7\ (fanout=8)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]:     MacroCell: Name=\FreqDiv_2:count_4\, Mode=(T-Register) @ [UDB=(1,4)][LB=1][MC=3]
-        Total # of inputs        : 5
+    [McSlotId=2]:     MacroCell: Name=\FreqDiv_2:MODULE_2:g2:a0:g1:z1:s0:g1:u0:b_8\, Mode=(Combinatorial) @ [UDB=(1,5)][LB=0][MC=2]
+        Total # of inputs        : 8
         Total # of product terms : 1
-        List of special equations: 
-            Clock  = (Net_4258) => Global
             Clock Enable: True
         Main Equation            : 1 pterm
         (
-              \FreqDiv_1:not_last_reset\ * \FreqDiv_1:count_1\ * 
-              \FreqDiv_1:count_0\ * \FreqDiv_2:count_3\ * \FreqDiv_2:count_2\
+              \FreqDiv_1:count_1\ * \FreqDiv_1:count_0\ * \FreqDiv_2:count_7\ * 
+              \FreqDiv_2:count_6\ * \FreqDiv_2:count_5\ * \FreqDiv_2:count_4\ * 
+              \FreqDiv_2:count_3\ * \FreqDiv_2:count_2\
         );
-        Output = \FreqDiv_2:count_4\ (fanout=8)
-        Properties               : 
-        {
-        }
-}
-
-UDB [UDB=(1,5)] contents:
-LAB@[UDB=(1,5)][LB=0] #macrocells=4, #inputs=11, #pterms=8
-{
-    [McSlotId=0]:     MacroCell: Name=\FreqDiv_2:count_3\, Mode=(T-Register) @ [UDB=(1,5)][LB=0][MC=0]
-        Total # of inputs        : 11
-        Total # of product terms : 5
-        List of special equations: 
-            Clock  = (Net_4258) => Global
-            Clock Enable: True
-        Main Equation            : 5 pterms
-        !(
-              !\FreqDiv_1:not_last_reset\
-            + !\FreqDiv_1:count_1\
-            + !\FreqDiv_1:count_0\
-            + \FreqDiv_2:count_9\ * \FreqDiv_2:count_8\ * \FreqDiv_2:count_7\ * 
-              \FreqDiv_2:count_6\ * \FreqDiv_2:count_5\ * 
-              !\FreqDiv_2:count_4\ * !\FreqDiv_2:count_3\
-            + !\FreqDiv_2:count_2\
-        );
-        Output = \FreqDiv_2:count_3\ (fanout=9)
+        Output = \FreqDiv_2:MODULE_2:g2:a0:g1:z1:s0:g1:u0:b_8\ (fanout=2)
         Properties               : 
         {
         }
 
-    [McSlotId=1]:     MacroCell: Name=\FreqDiv_2:count_2\, Mode=(T-Register) @ [UDB=(1,5)][LB=0][MC=1]
-        Total # of inputs        : 3
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (Net_4258) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              \FreqDiv_1:not_last_reset\ * \FreqDiv_1:count_1\ * 
-              \FreqDiv_1:count_0\
-        );
-        Output = \FreqDiv_2:count_2\ (fanout=9)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\FreqDiv_1:count_1\, Mode=(T-Register) @ [UDB=(1,5)][LB=0][MC=2]
+    [McSlotId=3]:     MacroCell: Name=\FreqDiv_1:count_1\, Mode=(T-Register) @ [UDB=(1,5)][LB=0][MC=3]
         Total # of inputs        : 2
         Total # of product terms : 1
         List of special equations: 
@@ -5652,21 +5784,6 @@ LAB@[UDB=(1,5)][LB=0] #macrocells=4, #inputs=11, #pterms=8
               \FreqDiv_1:not_last_reset\ * \FreqDiv_1:count_0\
         );
         Output = \FreqDiv_1:count_1\ (fanout=11)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]:     MacroCell: Name=\FreqDiv_1:count_0\, Mode=(T-Register) @ [UDB=(1,5)][LB=0][MC=3]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (Net_4258) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              \FreqDiv_1:not_last_reset\
-        );
-        Output = \FreqDiv_1:count_0\ (fanout=12)
         Properties               : 
         {
         }
@@ -5710,6 +5827,16 @@ LAB@[UDB=(1,5)][LB=1] #macrocells=2, #inputs=4, #pterms=3
     [McSlotId=2]: (empty)
     [McSlotId=3]: (empty)
 }
+
+synccell: Name =\USBFS:nrqSync:genblk1[7]:INST\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        out => \USBFS:dma_nrq_sync_7\ );
+    Properties:
+    {
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
 
 UDB [UDB=(2,1)] is empty.
 UDB [UDB=(2,2)] is empty.
@@ -5814,6 +5941,14 @@ Intr hod @ [IntrHod=(0)]:
     interrupt: Name =\USBFS:ord_int\
         PORT MAP (
             interrupt => \USBFS:Net_95\ );
+        Properties:
+        {
+            int_type = "10"
+        }
+  Intr@ [IntrHod=(0)][IntrId=(29)] 
+    interrupt: Name =\ADC_DelSig_1:IRQ\
+        PORT MAP (
+            interrupt => Net_4404 );
         Properties:
         {
             int_type = "10"
@@ -6666,23 +6801,19 @@ Clock group 0:
             dclk_1 => Net_55_local ,
             dclk_glb_2 => I2Sclk ,
             dclk_2 => I2Sclk_local ,
-            dclk_glb_3 => Net_3093 ,
-            dclk_3 => Net_3093_local );
+            dclk_glb_3 => \ADC_DelSig_1:Net_93\ ,
+            dclk_3 => \ADC_DelSig_1:Net_93_local\ ,
+            dclk_glb_4 => Net_3093 ,
+            dclk_4 => Net_3093_local ,
+            aclk_glb_0 => \ADC_DelSig_1:Net_488\ ,
+            aclk_0 => \ADC_DelSig_1:Net_488_local\ ,
+            clk_a_dig_glb_0 => \ADC_DelSig_1:Net_488_adig\ ,
+            clk_a_dig_0 => \ADC_DelSig_1:Net_488_adig_local\ );
         Properties:
         {
         }
 Comparator Fixed Block group 0: 
     Comparator Block @ [FFB(Comparator,0)]: 
-    comparatorcell: Name =\Comp_0:ctComp\
-        PORT MAP (
-            vplus => u0i ,
-            vminus => vdda2 ,
-            out => c0 );
-        Properties:
-        {
-            cy_registers = ""
-        }
-    Comparator Block @ [FFB(Comparator,1)]: 
     comparatorcell: Name =\Comp_2:ctComp\
         PORT MAP (
             vplus => u2i ,
@@ -6692,7 +6823,7 @@ Comparator Fixed Block group 0:
         {
             cy_registers = ""
         }
-    Comparator Block @ [FFB(Comparator,2)]: 
+    Comparator Block @ [FFB(Comparator,1)]: 
     comparatorcell: Name =\Comp_3:ctComp\
         PORT MAP (
             vplus => u3i ,
@@ -6702,7 +6833,7 @@ Comparator Fixed Block group 0:
         {
             cy_registers = ""
         }
-    Comparator Block @ [FFB(Comparator,3)]: 
+    Comparator Block @ [FFB(Comparator,2)]: 
     comparatorcell: Name =\Comp_1:ctComp\
         PORT MAP (
             vplus => u1i ,
@@ -6712,9 +6843,64 @@ Comparator Fixed Block group 0:
         {
             cy_registers = ""
         }
+    Comparator Block @ [FFB(Comparator,3)]: 
+    comparatorcell: Name =\Comp_0:ctComp\
+        PORT MAP (
+            vplus => u0i ,
+            vminus => vdda2 ,
+            out => c0 );
+        Properties:
+        {
+            cy_registers = ""
+        }
 DFB Fixed Block group 0: empty
-DSM Fixed Block group 0: empty
-Decimator Fixed Block group 0: empty
+DSM Fixed Block group 0: 
+    DS Modulator @ [FFB(DSM,0)]: 
+    dsmodcell: Name =\ADC_DelSig_1:DSM\
+        PORT MAP (
+            aclock => \ADC_DelSig_1:Net_488\ ,
+            vplus => vdda2 ,
+            vminus => \ADC_DelSig_1:Net_520\ ,
+            reset_dec => \ADC_DelSig_1:mod_reset\ ,
+            extclk_cp_udb => \ADC_DelSig_1:Net_93_local\ ,
+            ext_pin_1 => \ADC_DelSig_1:Net_573\ ,
+            ext_pin_2 => \ADC_DelSig_1:Net_41\ ,
+            ext_vssa => \ADC_DelSig_1:Net_109\ ,
+            qtz_ref => \ADC_DelSig_1:Net_677\ ,
+            dec_clock => \ADC_DelSig_1:aclock\ ,
+            mod_dat_3 => \ADC_DelSig_1:mod_dat_3\ ,
+            mod_dat_2 => \ADC_DelSig_1:mod_dat_2\ ,
+            mod_dat_1 => \ADC_DelSig_1:mod_dat_1\ ,
+            mod_dat_0 => \ADC_DelSig_1:mod_dat_0\ ,
+            dout_udb_7 => \ADC_DelSig_1:Net_245_7\ ,
+            dout_udb_6 => \ADC_DelSig_1:Net_245_6\ ,
+            dout_udb_5 => \ADC_DelSig_1:Net_245_5\ ,
+            dout_udb_4 => \ADC_DelSig_1:Net_245_4\ ,
+            dout_udb_3 => \ADC_DelSig_1:Net_245_3\ ,
+            dout_udb_2 => \ADC_DelSig_1:Net_245_2\ ,
+            dout_udb_1 => \ADC_DelSig_1:Net_245_1\ ,
+            dout_udb_0 => \ADC_DelSig_1:Net_245_0\ );
+        Properties:
+        {
+            cy_registers = ""
+            resolution = 12
+        }
+Decimator Fixed Block group 0: 
+    Decimator Block @ [FFB(Decimator,0)]: 
+    decimatorcell: Name =\ADC_DelSig_1:DEC\
+        PORT MAP (
+            aclock => \ADC_DelSig_1:aclock\ ,
+            mod_dat_3 => \ADC_DelSig_1:mod_dat_3\ ,
+            mod_dat_2 => \ADC_DelSig_1:mod_dat_2\ ,
+            mod_dat_1 => \ADC_DelSig_1:mod_dat_1\ ,
+            mod_dat_0 => \ADC_DelSig_1:mod_dat_0\ ,
+            ext_start => __ONE__ ,
+            modrst => \ADC_DelSig_1:mod_reset\ ,
+            interrupt => Net_4404 );
+        Properties:
+        {
+            cy_registers = ""
+        }
 EMIF Fixed Block group 0: empty
 I2C Fixed Block group 0: empty
 LCD Fixed Block group 0: empty
@@ -6729,30 +6915,18 @@ PM group 0:
         }
 SC Fixed Block group 0: 
     SC Block @ [FFB(SC,0)]: 
-    sccell: Name =\Sample_Hold_0:SC\
+    sccell: Name =\Sample_Hold_1:SC\
         PORT MAP (
-            vref => \Sample_Hold_0:Net_105\ ,
-            vin => u1o ,
-            dyn_cntl_udb => Net_4003 ,
-            modout => \Sample_Hold_0:Net_56\ ,
-            vout => u0i );
+            vref => \Sample_Hold_1:Net_105\ ,
+            vin => u0o ,
+            dyn_cntl_udb => Net_183 ,
+            modout => \Sample_Hold_1:Net_56\ ,
+            vout => u1i );
         Properties:
         {
             cy_registers = ""
         }
     SC Block @ [FFB(SC,1)]: 
-    sccell: Name =\Sample_Hold_2:SC\
-        PORT MAP (
-            vref => \Sample_Hold_2:Net_105\ ,
-            vin => u3o ,
-            dyn_cntl_udb => Net_4003 ,
-            modout => \Sample_Hold_2:Net_56\ ,
-            vout => u2i );
-        Properties:
-        {
-            cy_registers = ""
-        }
-    SC Block @ [FFB(SC,2)]: 
     sccell: Name =\Sample_Hold_3:SC\
         PORT MAP (
             vref => \Sample_Hold_3:Net_105\ ,
@@ -6764,14 +6938,26 @@ SC Fixed Block group 0:
         {
             cy_registers = ""
         }
-    SC Block @ [FFB(SC,3)]: 
-    sccell: Name =\Sample_Hold_1:SC\
+    SC Block @ [FFB(SC,2)]: 
+    sccell: Name =\Sample_Hold_2:SC\
         PORT MAP (
-            vref => \Sample_Hold_1:Net_105\ ,
-            vin => u0o ,
-            dyn_cntl_udb => Net_183 ,
-            modout => \Sample_Hold_1:Net_56\ ,
-            vout => u1i );
+            vref => \Sample_Hold_2:Net_105\ ,
+            vin => u3o ,
+            dyn_cntl_udb => Net_4003 ,
+            modout => \Sample_Hold_2:Net_56\ ,
+            vout => u2i );
+        Properties:
+        {
+            cy_registers = ""
+        }
+    SC Block @ [FFB(SC,3)]: 
+    sccell: Name =\Sample_Hold_0:SC\
+        PORT MAP (
+            vref => \Sample_Hold_0:Net_105\ ,
+            vin => u1o ,
+            dyn_cntl_udb => Net_4003 ,
+            modout => \Sample_Hold_0:Net_56\ ,
+            vout => u0i );
         Properties:
         {
             cy_registers = ""
@@ -6865,8 +7051,37 @@ Vref group 0:
             ignoresleep = 0
             name = "Vdda/2"
         }
+    Vref Block @ [FFB(Vref,6)]: 
+    vrefcell: Name =\ADC_DelSig_1:vRef_2\
+        PORT MAP (
+            vout => \ADC_DelSig_1:Net_244\ );
+        Properties:
+        {
+            autoenable = 1
+            guid = "15B3DB15-B7B3-4d62-A2DF-25EA392A7161"
+            ignoresleep = 0
+            name = "Vssa (GND)"
+        }
 LPF Fixed Block group 0: empty
 SAR Fixed Block group 0: empty
+
+Blocks not positioned by the digital component placer:
+    Amux Block @ <No Location>: 
+    amuxcell: Name =\ADC_DelSig_1:AMux\
+        PORT MAP (
+            muxin_1 => \ADC_DelSig_1:Net_690\ ,
+            muxin_0 => \ADC_DelSig_1:Net_244\ ,
+            vout => \ADC_DelSig_1:Net_520\ );
+        Properties:
+        {
+            api_type = 0
+            connect_mode = 1
+            cy_registers = ""
+            hw_control = 0
+            init_mux_sel = "00"
+            muxin_width = 2
+            one_active = 0
+        }
 </CYPRESSTAG>
 <CYPRESSTAG name="Port Configuration Details">
 
@@ -6900,32 +7115,32 @@ Port | Pin | Fixed |      Type |       Drive Mode |          Name | Connections
 </CYPRESSTAG>
 </CYPRESSTAG>
 </CYPRESSTAG>
-Digital component placer commit/Report: Elapsed time ==> 0s.034ms
-Digital Placement phase: Elapsed time ==> 5s.584ms
+Digital component placer commit/Report: Elapsed time ==> 0s.026ms
+Digital Placement phase: Elapsed time ==> 4s.682ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Digital Routing">
 Routing successful.
-Digital Routing phase: Elapsed time ==> 8s.496ms
+Digital Routing phase: Elapsed time ==> 8s.056ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream and API generation">
-Bitstream and API generation phase: Elapsed time ==> 1s.042ms
+Bitstream and API generation phase: Elapsed time ==> 1s.008ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Bitstream verification">
-Bitstream verification phase: Elapsed time ==> 0s.110ms
+Bitstream verification phase: Elapsed time ==> 0s.121ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Static timing analysis">
 Timing report is in REDOUBLER_timing.html.
-Static timing analysis phase: Elapsed time ==> 1s.334ms
+Static timing analysis phase: Elapsed time ==> 1s.313ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Data reporting">
 Data reporting phase: Elapsed time ==> 0s.000ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.580ms
+Design database save phase: Elapsed time ==> 0s.566ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 32s.188ms
+cydsfit: Elapsed time ==> 31s.990ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 32s.297ms
-API generation phase: Elapsed time ==> 4s.710ms
-Dependency generation phase: Elapsed time ==> 0s.110ms
-Cleanup phase: Elapsed time ==> 0s.050ms
+Fitter phase: Elapsed time ==> 32s.100ms
+API generation phase: Elapsed time ==> 5s.532ms
+Dependency generation phase: Elapsed time ==> 0s.117ms
+Cleanup phase: Elapsed time ==> 0s.043ms

@@ -319,12 +319,22 @@ void ServiceUSBSuspend(void)
 *******************************************************************************/
 void HandleUSBHostInterface(void)
 {
+    int16 v_val;
     
     if(!USBFS_initVar)
-    {  
+    {
+        /* Determine Operating Voltage, APA */
+        
+        ADC_DelSig_1_Start();
+        CyDelay(20u); //ms
+        v_val=ADC_DelSig_1_Read16();
+        ADC_DelSig_1_Stop();
         
 		/* Start the USB component when PC/Mac is connected */
-        USBFS_Start(PC_MAC_AUDIO_WITH_VOLUME_DEVICE, USBFS_DWR_VDDD_OPERATION);
+        if(v_val > 1386) // experimentally determined
+            USBFS_Start(PC_MAC_AUDIO_WITH_VOLUME_DEVICE, USBFS_5V_OPERATION);
+        else
+            USBFS_Start(PC_MAC_AUDIO_WITH_VOLUME_DEVICE, USBFS_3V_OPERATION);
         USBDeviceState = USB_INIT_AFTER_ENUMERATION_REQUIRED;
         usbMiniBActive = TRUE;
         

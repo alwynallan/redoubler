@@ -1,4 +1,4 @@
-TARGETS = doubledown oddbits evenbits runs whiten
+TARGETS = doubledown oddbits evenbits xorbits runs whiten
 BINDIR = /usr/local/bin
 all: $(TARGETS)
 
@@ -10,6 +10,9 @@ oddbits: oddbits.c
 
 evenbits: oddbits
 	ln -f oddbits evenbits
+
+xorbits: oddbits
+	ln -f oddbits xorbits
 
 whiten: whiten.c chacha.o
 	gcc -Wall whiten.c chacha.o -o whiten
@@ -31,4 +34,3 @@ clean:
 	-rm -f *.o
 	-rm -f $(TARGETS)
 	-rm -f *~
-
