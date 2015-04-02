@@ -1,6 +1,6 @@
 /**************************************************************************************/
 /* runs.c computes the runs test of bits in a binary file                             */
-/* APA Consulting, 2000                                                               */
+/* APA Consulting, 2000, 2015                                                         */
 /* Free to everyone forever, not fit for any particular purpose                       */
 /* Compiler:  GCC MINGW32 (http://www.xraylith.wisc.edu/~khan/software/gnu-win32)     */
 /* Reference: Handbook of Applied Cryptography                                        */
@@ -77,7 +77,13 @@ int main(int argc, char *argv[])
   else{
     n=(double)bytes*8.;
     for(k2=1;((n-k2+3)/pow(2.,k2+2))>=5.;k2++); k2--;
-    if(k2<k) k=k2;
+    if(k2<k){
+      for(i=k2+1;i<=k;i++){
+        bg[0][0] += bg[0][i];
+        bg[1][0] += bg[1][i];
+      }
+      k=k2;
+    }
   }
   fo=fopen("runs.dat","w");
   fprintf(fo,"File: %s, %lu bytes\n",argv[1],bytes);
