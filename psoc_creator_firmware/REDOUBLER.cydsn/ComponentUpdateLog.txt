@@ -36,3 +36,11 @@ REDOUBLER: TopDesign
 	USBFS_1 [v2.60] to [v2.80]
 
 
+Last Modified Date & Time: 04/05/2015 15:19:14
+
+REDOUBLER: TopDesign
+	Status_Reg_1 [v1.80] to [v1.90]
+	Clock_CIC_Running [v1.70] to [v1.80]
+	ADC_DelSig_1 [v3.10] to [v3.20]
+
+
