@@ -10,9 +10,9 @@ $ dmesg
 [395858.383614] usb 1-1.2.2: Manufacturer: Open Source Hardware Copyright (c) 2015 Peter Allan
 [395858.383628] usb 1-1.2.2: SerialNumber: 1E0C08F0022E2400
 ```
-It may be necessary to add your non-root user to the aduio group to access it:
+It may be necessary to add your non-root user to the **audio** group to access it:
 ```
-sudo adduser -G audio <your_username>
+$ sudo adduser -G audio <your_username>
 ```
 Assuming ALSA, it will also appear in the /dev/snd hierarchy, e.g.
 ```
